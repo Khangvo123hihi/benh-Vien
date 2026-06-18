@@ -1,0 +1,285 @@
+﻿@{
+    ViewData["Title"] = "Hướng Dẫn Hiến Máu";
+}
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #c1121f, #780000);
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: bold;
+        color: #c1121f;
+    }
+
+    .step-card {
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 5px 20px rgba(0,0,0,.1);
+        height: 100%;
+        transition: .3s;
+    }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .step-number {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin: auto;
+        border-radius: 50%;
+        background: #c1121f;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .condition-section {
+        background: #f8f9fa;
+        padding: 80px 0;
+    }
+
+    .condition-box {
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    }
+
+        .condition-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .condition-box li {
+            margin-bottom: 12px;
+        }
+
+    .note-card {
+        border-left: 5px solid #c1121f;
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,.05);
+    }
+
+    .benefit-card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,.08);
+        height: 100%;
+    }
+
+        .benefit-card h4 {
+            color: #c1121f;
+            margin-bottom: 15px;
+        }
+</style>
+
+<!-- Banner -->
+<section class="hero-section">
+    <div class="container">
+        <h1>Hướng Dẫn Hiến Máu</h1>
+        <p>
+            Hiến máu cứu người - Một nghĩa cử cao đẹp vì cộng đồng.
+        </p>
+    </div>
+</section>
+
+<!-- Quy trình -->
+<section class="container py-5">
+    <h2 class="section-title">
+        Quy Trình Hiến Máu
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h4>Đăng Ký</h4>
+                <p>
+                    Điền thông tin cá nhân và chọn địa điểm hiến máu.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h4>Khám Sàng Lọc</h4>
+                <p>
+                    Kiểm tra sức khỏe, huyết áp và tư vấn y tế.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h4>Hiến Máu</h4>
+                <p>
+                    Thực hiện hiến máu theo hướng dẫn của nhân viên y tế.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h4>Nghỉ Ngơi</h4>
+                <p>
+                    Bổ sung nước và nghỉ ngơi sau khi hiến máu.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Điều kiện -->
+<section class="condition-section">
+    <div class="container">
+
+        <h2 class="section-title">
+            Điều Kiện Hiến Máu
+        </h2>
+
+        <div class="condition-box">
+            <ul>
+                <li>Công dân từ 18 đến 60 tuổi.</li>
+                <li>Cân nặng tối thiểu 45kg.</li>
+                <li>Sức khỏe tốt và đủ điều kiện theo đánh giá của bác sĩ.</li>
+                <li>Không mắc các bệnh truyền nhiễm qua đường máu.</li>
+                <li>Không sử dụng chất kích thích trước ngày hiến máu.</li>
+                <li>Khoảng cách giữa hai lần hiến máu tối thiểu 12 tuần.</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- Lưu ý -->
+<section class="container py-5">
+
+    <h2 class="section-title">
+        Lưu Ý Trước Khi Hiến Máu
+    </h2>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="note-card">
+                ✅ Ngủ đủ từ 6 - 8 tiếng trước ngày hiến máu.
+            </div>
+
+            <div class="note-card">
+                ✅ Ăn nhẹ trước khi hiến máu.
+            </div>
+
+            <div class="note-card">
+                ✅ Mang theo CCCD hoặc giấy tờ tùy thân.
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="note-card">
+                ✅ Uống nhiều nước trước khi hiến máu.
+            </div>
+
+            <div class="note-card">
+                ❌ Không uống rượu bia trong vòng 24 giờ.
+            </div>
+
+            <div class="note-card">
+                ❌ Không thức khuya trước ngày hiến máu.
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Lợi ích -->
+<section class="container py-5">
+
+    <h2 class="section-title">
+        Lợi Ích Của Việc Hiến Máu
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="benefit-card">
+                <h4>Cứu Người</h4>
+                <p>
+                    Mỗi đơn vị máu có thể góp phần cứu sống nhiều bệnh nhân.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="benefit-card">
+                <h4>Kiểm Tra Sức Khỏe</h4>
+                <p>
+                    Được kiểm tra và tư vấn sức khỏe miễn phí.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="benefit-card">
+                <h4>Lan Tỏa Nhân Ái</h4>
+                <p>
+                    Chung tay xây dựng cộng đồng nhân văn và đoàn kết.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Nút hành động -->
+<section class="text-center py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4">
+            Sẵn Sàng Hiến Máu?
+        </h2>
+
+        <a asp-controller="Donation"
+           asp-action="Create"
+           class="btn btn-danger btn-lg me-3">
+            Đăng Ký Hiến Máu
+        </a>
+
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="btn btn-outline-secondary btn-lg">
+            Quay Về Trang Chủ
+        </a>
+    </div>
+</section>

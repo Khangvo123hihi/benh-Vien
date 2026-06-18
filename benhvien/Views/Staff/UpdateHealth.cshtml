@@ -1,0 +1,32 @@
+﻿@model benhvien.Models.User
+
+<h2>Cập nhật hồ sơ sức khỏe</h2>
+
+<form asp-action="UpdateHealth" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label>Nhóm máu</label>
+        <input asp-for="BloodType"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Tuổi</label>
+        <input asp-for="Age"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Địa chỉ</label>
+        <input asp-for="Address"
+               class="form-control" />
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Lưu
+    </button>
+
+</form>

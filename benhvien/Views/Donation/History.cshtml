@@ -1,0 +1,67 @@
+﻿@model IEnumerable<benhvien.Models.DonationAppointment>
+
+@{
+    ViewData["Title"] = "Lịch sử hiến máu";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-danger">Lịch sử hiến máu</h2>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            Bạn chưa có lịch sử hiến máu nào.
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover">
+            <thead class="table-danger">
+                <tr>
+                    <th>Mã</th>
+                    <th>Bệnh viện</th>
+                    <th>Nhóm máu</th>
+                    <th>Ngày hiến</th>
+                    <th>Ghi chú</th>
+                    <th>Ngày tạo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+
+                        <td>@item.HospitalName</td>
+
+                        <td>
+                            <span class="badge bg-danger">
+                                @item.BloodType
+                            </span>
+                        </td>
+
+                        <td>
+                            @item.DonateDate.ToString("dd/MM/yyyy")
+                        </td>
+
+                        <td>@item.Note</td>
+
+                        <td>
+                            @(item.CreatedAt?.ToString("dd/MM/yyyy HH:mm"))
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <a asp-controller="BloodRequest"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Quay lại
+    </a>
+
+</div>

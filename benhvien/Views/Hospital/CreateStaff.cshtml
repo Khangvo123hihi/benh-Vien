@@ -1,0 +1,34 @@
+﻿@model benhvien.Models.User
+
+<h2>Thêm nhân viên</h2>
+
+<form asp-action="CreateStaff" method="post">
+
+    <div class="mb-3">
+        <label>Họ tên</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Số điện thoại</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mật khẩu</label>
+        <input asp-for="Password"
+               type="password"
+               class="form-control" />
+    </div>
+    @Html.AntiForgeryToken()
+    <button type="submit"
+            class="btn btn-primary">
+        Lưu
+    </button>
+
+</form>

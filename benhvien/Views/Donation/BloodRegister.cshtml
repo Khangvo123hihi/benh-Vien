@@ -1,0 +1,121 @@
+﻿@model benhvien.Models.DonationAppointment
+@{
+    ViewData["Title"] = "Đăng ký hiến máu";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-danger text-white">
+            <h3>Đăng ký hiến máu</h3>
+        </div>
+
+       <div class="card-body">
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <form asp-action="BloodRegister" method="post">
+
+                <input type="hidden"
+                       name="BloodRequestId"
+                       value="@ViewBag.BloodRequestId" />
+
+                <div class="mb-3">
+                    <label class="form-label">Họ và tên</label>
+                    <input type="text"
+                           name="FullName"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Tuổi</label>
+                    <input type="number"
+                           name="Age"
+                           class="form-control"
+                           min="18"
+                           max="65"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Giới tính</label>
+                    <select name="Gender"
+                            class="form-select"
+                            required>
+                        <option value="">-- Chọn giới tính --</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <input asp-for="BloodType"
+                           class="form-control"
+                           readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Địa chỉ</label>
+                    <textarea name="Address"
+                              class="form-control"
+                              rows="3"
+                              required></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Số điện thoại</label>
+                    <input type="text"
+                           name="Phone"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email"
+                           name="Email"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Ngày hiến dự kiến</label>
+                    <input type="date"
+                           name="DonateDate"
+                           class="form-control"
+                           required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Địa điểm hiến máu</label>
+                    <input type="text"
+                           name="Location"
+                           class="form-control"
+                           placeholder="Ví dụ: Bệnh viện Chợ Rẫy" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Ghi chú</label>
+                    <textarea name="Note"
+                              class="form-control"
+                              rows="3"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit"
+                            class="btn btn-danger">
+                        Xác nhận đăng ký hiến máu
+                    </button>
+
+                    <a href="javascript:history.back()"
+                       class="btn btn-secondary">
+                        Quay lại
+                    </a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model benhvien.Models.User // Thay bằng Model User thực tế của bạn
+
+<div class="container mt-5">
+    <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-header bg-danger text-white text-center">
+            <h3>Thông Tin Cá Nhân</h3>
+        </div>
+        <div class="card-body">
+            <p><strong>Họ và tên:</strong> @Model.FullName</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Số điện thoại:</strong> @Model.Phone</p>
+            <p><strong>Nhóm máu:</strong> @Model.BloodType</p>
+            <p><strong>Địa chỉ:</strong> @Model.Address</p>
+            <p><strong>Tuổi:</strong> @Model.Age</p>
+            @* Bạn có thể bổ sung thêm các trường khác tại đây *@
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-controller="User"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Quay lại
+    </a>
+</div>

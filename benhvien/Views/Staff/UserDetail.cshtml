@@ -1,0 +1,43 @@
+﻿@model benhvien.Models.User
+
+<h2>Thông tin người hiến máu</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Họ tên</th>
+        <td>@Model.FullName</td>
+    </tr>
+
+    <tr>
+        <th>Email</th>
+        <td>@Model.Email</td>
+    </tr>
+
+    <tr>
+        <th>Số điện thoại</th>
+        <td>@Model.Phone</td>
+    </tr>
+
+    <tr>
+        <th>Nhóm máu</th>
+        <td>@Model.BloodType</td>
+    </tr>
+
+    <tr>
+        <th>Tuổi</th>
+        <td>@Model.Age</td>
+    </tr>
+
+    <tr>
+        <th>Địa chỉ</th>
+        <td>@Model.Address</td>
+    </tr>
+
+</table>
+
+<a asp-action="UpdateHealth"
+   asp-route-id="@Model.Id"
+   class="btn btn-primary">
+    Cập nhật hồ sơ
+</a>

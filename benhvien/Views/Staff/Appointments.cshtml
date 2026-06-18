@@ -1,0 +1,82 @@
+﻿@model List<benhvien.Models.DonationAppointment>
+
+<h2>Danh sách lịch hẹn hiến máu</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ngày hiến</th>
+            <th>Địa điểm</th>
+            <th>Nhóm máu</th>
+            <th>Trạng thái</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.Id</td>
+
+                <td>
+                    @item.DonateDate.ToString("dd/MM/yyyy")
+                </td>
+
+                <td>@item.Location</td>
+
+                <td>@item.BloodType</td>
+
+                <td>@item.Status</td>
+
+                <td>
+
+                    <a asp-action="Approve"
+                       asp-route-id="@item.Id"
+                       class="btn btn-success btn-sm">
+                        Duyệt
+                    </a>
+
+                    <a asp-action="Reject"
+                       asp-route-id="@item.Id"
+                       class="btn btn-danger btn-sm">
+                        Từ chối
+                    </a>
+
+                    <a asp-action="Complete"
+                       asp-route-id="@item.Id"
+                       class="btn btn-primary btn-sm">
+                        Thành công
+                    </a>
+
+                    <a asp-action="Failed"
+                       asp-route-id="@item.Id"
+                       class="btn btn-warning btn-sm">
+                        Thất bại
+                    </a>
+
+                    <a asp-action="UserDetail"
+                       asp-route-id="@item.UserId"
+                       class="btn btn-info btn-sm">
+                        Hồ sơ
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

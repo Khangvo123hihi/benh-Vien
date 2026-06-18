@@ -1,0 +1,38 @@
+﻿@model List<benhvien.Models.BloodRequest>
+
+<h2>Danh sách yêu cầu máu</h2>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Nhóm máu</th>
+            <th>Số lượng</th>
+            <th>Mô tả</th>
+            <th>Khẩn cấp</th>
+            <th>Ngày tạo</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BloodType</td>
+                <td>@item.QuantityNeeded</td>
+                <td>@item.Description</td>
+
+                <td>
+                    @(item.IsUrgent ? "Có" : "Không")
+                </td>
+
+                <td>
+                    @item.CreatedAt.ToString("dd/MM/yyyy")
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

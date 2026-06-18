@@ -1,0 +1,225 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="landing-page">
+
+    <!-- HERO -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1>Kết Nối Những Giọt Máu - Trao Hy Vọng Sống</h1>
+            <p class="lead">
+                Nền tảng hỗ trợ đăng ký hiến máu và tìm kiếm nguồn máu nhanh chóng.
+            </p>
+
+            <div class="mt-4">
+                <a asp-controller="Account"
+                   asp-action="Login"
+                   class="btn btn-danger btn-lg me-3">
+                    Đăng nhập
+                </a>
+
+                <a asp-controller="Account"
+                   asp-action="Register"
+                   class="btn btn-danger btn-lg me-3">
+                    Đăng ký
+                </a>
+                <a asp-controller="Home"
+                   asp-action="DonationGuide"
+                   class="btn btn-danger btn-lg me-3">
+                    Hướng dẫn hiến máu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MID DƯỚI -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">
+                        Vì sao nên tham gia?
+                    </h2>
+
+                    <div class="feature-item">
+                        ❤️ Hỗ trợ cứu sống bệnh nhân cần truyền máu khẩn cấp.
+                    </div>
+
+                    <div class="feature-item">
+                        🩸 Đăng ký hiến máu trực tuyến nhanh chóng.
+                    </div>
+
+                    <div class="feature-item">
+                        📍 Theo dõi lịch sử hiến máu cá nhân.
+                    </div>
+
+                    <div class="feature-item">
+                        🔔 Nhận thông báo khi có nhu cầu máu phù hợp.
+                    </div>
+
+                    <div class="feature-item">
+                        🏥 Kết nối trực tiếp với bệnh viện.
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="col-lg-6 text-center">
+                    <img src="~/images/blood-donation.png"
+                         class="img-fluid"
+                         alt="Blood Donation">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- THỐNG KÊ -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-md-4">
+                    <h2>10,000+</h2>
+                    <p>Người hiến máu</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>5,000+</h2>
+                    <p>Lượt hiến thành công</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>50+</h2>
+                    <p>Bệnh viện liên kết</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+<footer class="custom-footer">
+
+    <div class="container">
+        <div class="row">
+
+            <!-- Save Life -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h4>Save Life</h4>
+                <ul>
+                    <li><a href="#">Request Blood</a></li>
+                    <li><a href="#">Donate Blood</a></li>
+                    <li><a href="#">Find Blood Bank</a></li>
+                    <li><a href="#">Find Hospital</a></li>
+                    <li><a href="#">Find Blood Camp</a></li>
+                    <li><a href="#">Find Labs</a></li>
+                </ul>
+            </div>
+
+            <!-- Register -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h4>Register</h4>
+                <ul>
+                    <li><a href="#">Donor Sign Up</a></li>
+                    <li><a href="#">Blood Bank Sign Up</a></li>
+                    <li><a href="#">Hospital Sign Up</a></li>
+                    <li><a href="#">Lab Sign Up</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Download -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h4>Download App</h4>
+
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                     class="img-fluid play-store"
+                     alt="Google Play">
+            </div>
+
+            <!-- Logo + Description -->
+            <div class="col-lg-4">
+                <h3 class="footer-logo">
+                    BLOOD<span>LINKS</span>
+                </h3>
+
+                <p class="footer-desc">
+                    Blood Links là nền tảng hỗ trợ kết nối người hiến máu,
+                    ngân hàng máu và bệnh viện nhằm cứu sống nhiều bệnh nhân
+                    hơn mỗi ngày.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        Copyright © 2026 BloodLinks. All Rights Reserved.
+    </div>
+
+</footer>
+<style>
+    .hero-section {
+        min-height: 50vh;
+        background: linear-gradient(135deg,#d32f2f,#b71c1c);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+
+    .feature-section {
+        padding: 80px 0;
+        background: #f8f9fa;
+    }
+
+    .feature-item {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .stats-section {
+        padding: 60px 0;
+        background: white;
+    }
+
+        .stats-section h2 {
+            color: #d32f2f;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+    footer {
+        margin-top: 0;
+    }
+</style>

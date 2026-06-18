@@ -1,0 +1,58 @@
+﻿@model List<benhvien.Models.User>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Vai trò</th>
+            <th>Thông tin bổ sung</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td>
+                    @if (item.Role == "Hospital")
+                    {
+                        <small class="text-primary fw-bold">
+                            <i class="bi bi-hospital"></i>
+                            @(item.Hospital != null
+                                                ? item.Hospital.Name
+                                                : "Chưa gán bệnh viện")
+                </small>
+                                }
+                    else if (item.Role == "Staff")
+                    {
+                        <small class="text-warning fw-bold">
+                            <i class="bi bi-person-badge"></i>
+                            Nhân viên -
+                            @(item.Hospital != null
+                                                ? item.Hospital.Name
+                                                : "Chưa gán bệnh viện")
+                </small>
+                                }
+                    else if (item.Role == "Admin")
+                    {
+                        <span class="text-muted">
+                            <i class="bi bi-shield-lock"></i>
+                            Toàn quyền hệ thống
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="text-secondary">
+                            <i class="bi bi-person"></i>
+                            Tài khoản cá nhân
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

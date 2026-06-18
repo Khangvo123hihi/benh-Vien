@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Staff Dashboard";
+}
+
+<div class="container mt-4">
+
+    <h2>Staff Dashboard</h2>
+
+    <div class="row mt-4">
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5>Tổng yêu cầu máu</h5>
+                    <h2>@ViewBag.TotalRequests</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5>Tổng lịch hẹn</h5>
+                    <h2>@ViewBag.TotalAppointments</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5>Chờ duyệt</h5>
+                    <h2>@ViewBag.PendingAppointments</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 mt-5 text-center">
+        <div class="p-4 bg-light rounded shadow-sm border">
+            <h4 class="text-muted mb-3"><i class="bi bi-gear-fill"></i> </h4>
+            <div class="d-flex justify-content-center gap-3">
+
+                <a asp-controller="Staff"
+                   asp-action="Appointments"
+                   class="btn btn-primary btn-lg px-4 py-3 shadow-sm d-flex align-items-center">
+                    <i class="bi bi-hospital me-2 fs-4"></i>
+                    <span class="fw-bold">Tạo tài khoản</span>
+                </a>
+
+                <a asp-controller="Staff"
+                   asp-action="BloodRequests"
+                   class="btn btn-success btn-lg px-4 py-3 shadow-sm d-flex align-items-center">
+                    <i class="bi bi-people-fill me-2 fs-4"></i>
+                    <span class="fw-bold">Danh sách tài khoản</span>
+                </a>
+
+
+
+            </div>
+</div>

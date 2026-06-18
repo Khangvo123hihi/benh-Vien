@@ -1,0 +1,67 @@
+﻿@model benhvien.Models.BloodRequest
+
+<h2 class="mb-4">
+    Tạo bài đăng cần máu
+</h2>
+
+<form asp-action="Create"
+      asp-controller="BloodRequest"
+      method="post">
+
+    <div class="mb-3">
+
+        <label>Nhóm máu</label>
+
+        <select asp-for="BloodType"
+                class="form-control">
+
+            <option>O+</option>
+            <option>O-</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Số lượng cần</label>
+
+        <input asp-for="QuantityNeeded"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Mô tả</label>
+
+        <textarea asp-for="Description"
+                  class="form-control">
+        </textarea>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>
+            <input asp-for="IsUrgent" />
+
+            Khẩn cấp
+        </label>
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-danger">
+
+        Đăng bài
+
+    </button>
+
+</form>

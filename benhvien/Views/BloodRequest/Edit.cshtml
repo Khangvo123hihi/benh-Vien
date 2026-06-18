@@ -1,0 +1,88 @@
+﻿@model benhvien.Models.BloodRequest
+
+<h2 class="mb-4">
+    Edit Blood Request
+</h2>
+
+<form asp-action="Edit"
+      method="post">
+
+    <input type="hidden"
+           asp-for="Id" />
+
+    <input type="hidden"
+           asp-for="HospitalId" />
+
+    <input type="hidden"
+           asp-for="CreatedAt" />
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Blood Type
+        </label>
+
+        <select asp-for="BloodType"
+                class="form-control">
+
+            <option>O+</option>
+            <option>O-</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+
+        </select>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Quantity
+        </label>
+
+        <input asp-for="QuantityNeeded"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Description
+        </label>
+
+        <textarea asp-for="Description"
+                  class="form-control"></textarea>
+
+    </div>
+
+    <div class="mb-3 form-check">
+
+        <input asp-for="IsUrgent"
+               class="form-check-input" />
+
+        <label class="form-check-label">
+            Urgent
+        </label>
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+
+        Save
+
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+
+        Back
+
+    </a>
+
+</form>

@@ -1,0 +1,73 @@
+﻿@model List<benhvien.Models.BloodRequest>
+
+<h2 class="mb-4">
+    Danh sách cần máu
+</h2>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+
+            <div class="card shadow">
+
+                <div class="card-body">
+
+                    <h4 class="text-danger">
+
+                        @item.BloodType
+
+                    </h4>
+
+                    <p>
+
+                        Cần:
+                        @item.QuantityNeeded người
+
+                    </p>
+
+                    <p>
+
+                        @item.Description
+
+                    </p>
+
+                    @if (item.IsUrgent)
+                    {
+                        <span class="badge bg-danger">
+
+                            KHẨN CẤP
+
+                        </span>
+                    }
+
+                    <br />
+                    <br />
+
+                    <a asp-controller="Donation"
+                       asp-action="BloodRegister"
+                       asp-route-id="@item.Id"
+                       class="btn btn-danger">
+
+                        Đăng ký hiến máu
+
+                    </a>
+                  
+
+                </div>
+
+            </div>
+
+        </div>
+
+    }
+    <div>
+        <a asp-controller="Donation"
+           asp-action="History"
+           class="btn btn-outline-primary">
+            Xem lịch sử đăng ký
+        </a>
+    </div>
+
+</div>

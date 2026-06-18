@@ -1,0 +1,39 @@
+﻿@model benhvien.Models.Hospital
+
+@{
+    ViewData["Title"] = "Thêm bệnh viện";
+}
+
+<div class="container mt-4">
+    <h2>Thêm bệnh viện</h2>
+
+    <form asp-action="CreateHospital" method="post">
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Tên bệnh viện</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Email" class="control-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label">Địa chỉ</label>
+            <input asp-for="Address" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Phone" class="form-label">Số điện thoại</label>
+            <input asp-for="Phone" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Thêm
+        </button>
+
+        <a asp-action="Hospital" class="btn btn-secondary">
+            Quay lại
+        </a>
+    </form>
+</div>

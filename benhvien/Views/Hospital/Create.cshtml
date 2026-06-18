@@ -1,0 +1,79 @@
+﻿@model benhvien.Models.BloodRequest
+
+@{
+    ViewData["Title"] = "Đăng yêu cầu máu";
+}
+
+<div class="container mt-4">
+
+    <h2>Đăng yêu cầu máu</h2>
+
+    <form asp-action="Create" method="post">
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Nhóm máu
+            </label>
+
+            <select asp-for="BloodType" class="form-select">
+
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+
+            </select>
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Số lượng cần
+            </label>
+
+            <input asp-for="QuantityNeeded"
+                   class="form-control" />
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Mô tả
+            </label>
+
+            <textarea asp-for="Description"
+                      rows="5"
+                      class="form-control"></textarea>
+
+        </div>
+
+        <div class="form-check mb-3">
+
+            <input asp-for="IsUrgent"
+                   class="form-check-input" />
+
+            <label class="form-check-label">
+                Yêu cầu khẩn cấp
+            </label>
+
+        </div>
+
+        <button class="btn btn-danger">
+            Đăng bài
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Quay lại
+        </a>
+
+    </form>
+
+</div>
