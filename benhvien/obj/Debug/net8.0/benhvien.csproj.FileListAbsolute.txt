@@ -137,3 +137,4 @@ C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\refint\be
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.pdb
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.genruntimeconfig.cache
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\ref\benhvien.dll
+C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.sourcelink.json

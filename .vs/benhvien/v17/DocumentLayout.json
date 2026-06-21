@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\models\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\createhospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\createhospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\edithospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\edithospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\createhospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\createhospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\edithospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\edithospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -77,10 +109,6 @@
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\models\\bloodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\models\\bloodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,32 +121,8 @@
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\donation\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -168,350 +172,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CreateStaff.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-18T01:14:26.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCYAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-26T03:50:24.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-06-16T15:14:05.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateHospital.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\CreateHospital.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\CreateHospital.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\CreateHospital.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Admin\\CreateHospital.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-18T01:08:54.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HospitalController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HospitalController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\HospitalController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HospitalController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\HospitalController.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T01:18:55.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA7wCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T13:35:12.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hospital.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\Hospital.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\Hospital.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\Hospital.cs",
-              "RelativeToolTip": "benhvien\\Models\\Hospital.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T01:13:47.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditHospital.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\EditHospital.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\EditHospital.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\EditHospital.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Admin\\EditHospital.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-18T01:09:19.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwHAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:19:22.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DonationController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\DonationController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\DonationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:18:34.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Users.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Users.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Admin\\Users.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T16:02:13.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\User.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\User.cs",
-              "RelativeToolTip": "benhvien\\Models\\User.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswB4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T13:46:44.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DonationAppointment.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationAppointment.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\DonationAppointment.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationAppointment.cs",
-              "RelativeToolTip": "benhvien\\Models\\DonationAppointment.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:19:48.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DonationHistory.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationHistory.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\DonationHistory.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationHistory.cs",
-              "RelativeToolTip": "benhvien\\Models\\DonationHistory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:19:49.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "benhvien\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T04:05:06.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BloodRequest.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\BloodRequest.cs",
-              "RelativeDocumentMoniker": "benhvien\\Models\\BloodRequest.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\BloodRequest.cs",
-              "RelativeToolTip": "benhvien\\Models\\BloodRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T04:02:20.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Create.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Create.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Create.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\BloodRequest\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwDYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-24T04:00:09.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "dbo.Hospitals [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Hospitals.sql",
-              "ToolTip": "dbo.Hospitals [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-06-14T15:39:34.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Profile.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Profile.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Account\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T08:02:51.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:25:16.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BloodRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\BloodRequestController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\BloodRequestController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\BloodRequestController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\BloodRequestController.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAswNMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T03:59:25.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T13:06:30.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "History.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Donation\\History.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Donation\\History.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Donation\\History.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Donation\\History.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T03:20:13.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "benhvien\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "benhvien\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T13:06:49.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:35:25.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T12:52:25.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Search.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Search.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Search.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Home\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:24:01.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:35:09.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\_ViewImports.cshtml",
@@ -523,19 +188,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwGwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:05:14.699Z"
+              "WhenOpened": "2026-06-10T13:19:22.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 4,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\Hospital.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\Hospital.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\Hospital.cs",
+              "RelativeToolTip": "benhvien\\Models\\Hospital.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA/wBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T01:13:47.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:06:49.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "benhvien\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T04:05:06.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Search.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Home\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T13:24:01.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T02:50:37.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\User\\Index.cshtml",
@@ -547,7 +273,289 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T13:35:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T13:35:09.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HospitalController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HospitalController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\HospitalController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\HospitalController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\HospitalController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T01:18:55.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateHospital.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\CreateHospital.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\CreateHospital.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\CreateHospital.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Admin\\CreateHospital.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T01:08:54.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T03:50:24.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA7wCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T13:35:12.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-16T15:14:05.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateStaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T01:14:26.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditHospital.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\EditHospital.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\EditHospital.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\EditHospital.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Admin\\EditHospital.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T01:09:19.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DonationController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\DonationController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\DonationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T03:18:34.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-15T16:02:13.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\User.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\User.cs",
+              "RelativeToolTip": "benhvien\\Models\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T13:46:44.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DonationAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationAppointment.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\DonationAppointment.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationAppointment.cs",
+              "RelativeToolTip": "benhvien\\Models\\DonationAppointment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T03:19:48.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DonationHistory.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationHistory.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\DonationHistory.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\DonationHistory.cs",
+              "RelativeToolTip": "benhvien\\Models\\DonationHistory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T03:19:49.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BloodRequest.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\BloodRequest.cs",
+              "RelativeDocumentMoniker": "benhvien\\Models\\BloodRequest.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Models\\BloodRequest.cs",
+              "RelativeToolTip": "benhvien\\Models\\BloodRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T04:02:20.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Create.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\BloodRequest\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T04:00:09.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.Hospitals.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Hospitals.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Hospitals.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-14T15:39:34.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T08:02:51.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T13:25:16.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BloodRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\BloodRequestController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\BloodRequestController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\BloodRequestController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\BloodRequestController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswNMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T03:59:25.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "benhvien\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T13:06:30.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Donation\\History.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Donation\\History.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Donation\\History.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Donation\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T03:20:13.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T12:52:25.554Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T13:05:14.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "DonationGuide.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Home\\DonationGuide.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Home\\DonationGuide.cshtml",
@@ -559,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\UserController.cs",
@@ -571,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Program.cs",
               "RelativeDocumentMoniker": "benhvien\\Program.cs",
@@ -583,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "MyRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\MyRequest.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\MyRequest.cshtml",
@@ -595,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "BloodRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\Donation\\BloodRegister.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Donation\\BloodRegister.cshtml",
@@ -607,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Index.cshtml",
@@ -619,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Views\\BloodRequest\\Edit.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Edit.cshtml",
@@ -631,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\appsettings.json",
               "RelativeDocumentMoniker": "benhvien\\appsettings.json",
@@ -643,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\appsettings.Development.json",
               "RelativeDocumentMoniker": "benhvien\\appsettings.Development.json",
@@ -652,6 +660,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-23T13:40:29.418Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

@@ -1,10 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Kết quả tìm kiếm";
-}
+﻿@model IEnumerable<benhvien.Models.Hospital>
 
-<h2>Kết quả tìm kiếm</h2>
+<h3>Kết quả tìm kiếm</h3>
 
-<p>
-    Từ khóa:
-    <strong>@ViewBag.Keyword</strong>
-</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên bệnh viện</th>
+            <th>Địa chỉ</th>
+            <th>SĐT</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var h in Model)
+        {
+            <tr>
+                <td>@h.Name</td>
+                <td>@h.Address</td>
+                <td>@h.Phone</td>
+            </tr>
+        }
+    </tbody>
+</table>
