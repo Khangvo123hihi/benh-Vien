@@ -54,6 +54,13 @@ namespace benhvien.Controllers
             if (!ModelState.IsValid)
                 return View(request);
 
+            // 1. Lấy ID của người dùng đang đăng nhập (ví dụ từ Claims/Session)
+            // Tùy thuộc vào cách bạn làm Authentication, ví dụ:
+            // var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); 
+
+            // 2. Gán ID đó vào request trước khi lưu
+            // request.UserId = userId; // (Thay 'UserId' bằng tên thuộc tính thực tế trong model của bạn)
+
             request.HospitalId = GetHospitalId();
             request.CreatedAt = DateTime.Now;
 

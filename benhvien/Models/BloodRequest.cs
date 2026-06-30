@@ -1,12 +1,15 @@
-﻿namespace benhvien.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace benhvien.Models
 {
     public class BloodRequest
     {
         public int Id { get; set; }
 
         public int HospitalId { get; set; }
-
-        public User? Hospital { get; set; }
+        
+        [ForeignKey(nameof(HospitalId))]
+        public virtual Hospital? Hospital { get; set; }
 
         public string? BloodType { get; set; }
 
