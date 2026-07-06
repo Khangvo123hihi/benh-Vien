@@ -7,36 +7,65 @@
     <h2>Trang quản trị</h2>
 
     <div class="row mt-4">
-
-        <div class="col-md-4">
-            <div class="card text-center">
+        <div class="col-md-4 mb-3">
+            <div class="card text-center border-primary shadow-sm">
                 <div class="card-body">
-                    <h5>Người dùng</h5>
-                    <h2>@ViewBag.TotalUsers</h2>
+                    <h5 class="text-primary"><i class="bi bi-people"></i> Người dùng</h5>
+                    <h2 class="fw-bold">@ViewBag.TotalUsers</h2>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="card text-center">
+        <div class="col-md-4 mb-3">
+            <div class="card text-center border-danger shadow-sm">
                 <div class="card-body">
-                    <h5>Yêu cầu máu</h5>
-                    <h2>@ViewBag.TotalRequests</h2>
+                    <h5 class="text-danger"><i class="bi bi-droplet"></i> Yêu cầu máu</h5>
+                    <h2 class="fw-bold">@ViewBag.TotalRequests</h2>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="card text-center">
+        <div class="col-md-4 mb-3">
+            <div class="card text-center border-warning shadow-sm">
                 <div class="card-body">
-                    <h5>Lịch đăng ký</h5>
-                    <h2>@ViewBag.TotalAppointments</h2>
+                    <h5 class="text-warning"><i class="bi bi-calendar-check"></i> Lịch đăng ký</h5>
+                    <h2 class="fw-bold">@ViewBag.TotalAppointments</h2>
                 </div>
             </div>
         </div>
-        <div class="col-12 mt-5 text-center">
+    </div>
+
+    <h4 class="mt-4 mb-3 text-secondary">
+        <i class="bi bi-pie-chart-fill text-danger me-2"></i>Số lượng người đăng ký theo nhóm máu
+    </h4>
+    <div class="row">
+        @if (ViewBag.BloodStats != null)
+        {
+            foreach (var stat in (List<benhvien.Models.BloodTypeStatistic>)ViewBag.BloodStats)
+            {
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card text-center border-light shadow-sm bg-white">
+                        <div class="card-body py-3">
+                            <span class="badge bg-danger fs-6 px-3 mb-2">@stat.ABO @stat.Rh</span>
+                            <h3 class="card-title text-dark fw-bold m-0">@stat.TotalDonors</h3>
+                            <small class="text-muted">người đăng ký</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <p class="text-muted italic text-center">Chưa có dữ liệu thống kê nhóm máu.</p>
+            </div>
+        }
+    </div>
+
+    <div class="row mt-2">
+        <div class="col-12 mt-4 text-center">
             <div class="p-4 bg-light rounded shadow-sm border">
-                <h4 class="text-muted mb-3"><i class="bi bi-gear-fill"></i> </h4>
+                <h4 class="text-muted mb-3"><i class="bi bi-gear-fill"></i> Bảng điều khiển chức năng</h4>
                 <div class="d-flex justify-content-center gap-3">
 
                     <a asp-controller="Admin"

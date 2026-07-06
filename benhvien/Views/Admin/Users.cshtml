@@ -18,7 +18,7 @@
                 <td>@item.FullName</td>
                 <td>@item.Email</td>
                 <td>
-                    @if (item.Role == "Hospital")
+                    @if (item.Role?.RoleName == "Hospital")
                     {
                         <small class="text-primary fw-bold">
                             <i class="bi bi-hospital"></i>
@@ -27,7 +27,7 @@
                                                 : "Chưa gán bệnh viện")
                 </small>
                                 }
-                    else if (item.Role == "Staff")
+                    else   @if (item.Role?.RoleName == "Staff")
                     {
                         <small class="text-warning fw-bold">
                             <i class="bi bi-person-badge"></i>
@@ -37,7 +37,7 @@
                                                 : "Chưa gán bệnh viện")
                 </small>
                                 }
-                    else if (item.Role == "Admin")
+                    else if (item.Role?.RoleName == "Admin")
                     {
                         <span class="text-muted">
                             <i class="bi bi-shield-lock"></i>

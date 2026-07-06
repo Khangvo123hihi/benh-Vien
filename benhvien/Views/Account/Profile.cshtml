@@ -9,7 +9,10 @@
             <p><strong>Họ và tên:</strong> @Model.FullName</p>
             <p><strong>Email:</strong> @Model.Email</p>
             <p><strong>Số điện thoại:</strong> @Model.Phone</p>
-            <p><strong>Nhóm máu:</strong> @Model.BloodType</p>
+            <p>
+                <strong>Nhóm máu:</strong>
+                @(Model.BloodType != null ? (Model.BloodType.ABO + Model.BloodType.Rh) : "Chưa cập nhật")
+            </p>
             <p><strong>Địa chỉ:</strong> @Model.Address</p>
             <p><strong>Tuổi:</strong> @Model.Age</p>
             @* Bạn có thể bổ sung thêm các trường khác tại đây *@

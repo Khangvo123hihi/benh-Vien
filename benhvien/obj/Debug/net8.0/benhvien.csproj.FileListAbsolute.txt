@@ -120,6 +120,7 @@ C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.RazorAssemblyInfo.cache
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.RazorAssemblyInfo.cs
+C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.sourcelink.json
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -137,4 +138,3 @@ C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\refint\be
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.pdb
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.genruntimeconfig.cache
 C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\ref\benhvien.dll
-C:\Users\nguyên khang\source\repos\benhvien\benhvien\obj\Debug\net8.0\benhvien.sourcelink.json

@@ -200,8 +200,7 @@ namespace benhvien.Controllers
             int hospitalId = GetHospitalId();
 
             var staffs = _context.Users
-                .Where(x => x.Role == "Staff"
-                         && x.HospitalId == hospitalId)
+                .Where(x => x.Role.RoleName == "Staff" && x.HospitalId == hospitalId)
                 .ToList();
 
             return View(staffs);
@@ -220,7 +219,11 @@ namespace benhvien.Controllers
 
             int hospitalId = GetHospitalId();
 
-            model.Role = "Staff";
+            var staffRole = _context.Roles.FirstOrDefault(r => r.RoleName == "Staff");
+            if (staffRole != null)
+            {
+                model.Role = staffRole; // Gán đối tượng cho đối tượng
+            }
 
             model.HospitalId = hospitalId;
 
@@ -236,5 +239,6 @@ namespace benhvien.Controllers
 
             return RedirectToAction(nameof(StaffList));
         }
+
     }
 }

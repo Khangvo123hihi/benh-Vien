@@ -20,8 +20,11 @@ namespace benhvien.Controllers
             ViewBag.TotalUsers = _context.Users.Count();
             ViewBag.TotalRequests = _context.BloodRequests.Count();
 
-            // Sửa lại cho đúng tên bảng của ní: _context.DonationAppointments chứ không phải Donations
+            // Sửa lại cho đúng tên bảng: _context.DonationAppointments chứ không phải Donations
             ViewBag.TotalAppointments = _context.DonationAppointments.Count();
+
+            // 🟢 THÊM DÒNG NÀY: Lấy dữ liệu đếm từ SQL View lên để truyền ra giao diện
+            ViewBag.BloodStats = _context.BloodTypeStatistics.ToList();
 
             return View(); // Trả về Admin/Index.cshtml
         }
@@ -36,19 +39,16 @@ namespace benhvien.Controllers
         }
 
         // 3. Giữ nguyên trang quản lý Users
+        // 3. Giữ nguyên trang quản lý Users
         public IActionResult Users()
         {
-            // Lấy danh sách toàn bộ người dùng và nạp kèm (Eager Loading) thông tin Bệnh viện của họ
-            var users = _context.Users.Include(u => u.Hospital).ToList();
+            // 🟢 SỬA TẠI ĐÂY: Thêm .Include(u => u.Role) để giao diện hiển thị đúng vai trò
+            var users = _context.Users
+                                .Include(u => u.Hospital)
+                                .Include(u => u.Role) // <--- Chèn thêm dòng này vào đây nhe ní
+                                .ToList();
 
             return View(users); // Trả về Admin/Users.cshtml và kết thúc hàm tại đây
-        }
-        public IActionResult BloodRequests()
-        {
-            return View(
-                _context.BloodRequests
-                .OrderByDescending(x => x.CreatedAt)
-                .ToList());
         }
 
         public IActionResult Donations()
