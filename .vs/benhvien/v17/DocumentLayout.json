@@ -213,30 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -251,13 +227,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SQLQuery4.sql ",
+              "Title": "che3qpgm..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\che3qpgm..sql",
-              "ToolTip": "SQLQuery4.sql *",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\che3qpgm..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T14:02:27.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T14:02:27.543Z"
             },
             {
               "$type": "Document",
@@ -269,8 +245,7 @@
               "RelativeToolTip": "benhvien\\Models\\BloodType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T13:51:58.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:51:58.386Z"
             },
             {
               "$type": "Document",
@@ -282,8 +257,7 @@
               "RelativeToolTip": "benhvien\\Controllers\\BloodTypeController1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T13:51:45.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:51:45.174Z"
             },
             {
               "$type": "Document",
@@ -295,8 +269,7 @@
               "RelativeToolTip": "benhvien\\Controllers\\AccountController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAuwDcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T13:06:30.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T13:06:30.095Z"
             },
             {
               "$type": "Document",
@@ -308,8 +281,7 @@
               "RelativeToolTip": "benhvien\\Controllers\\HospitalController.cs",
               "ViewState": "AgIAAMkAAAAAAAAAAAAqwOEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T01:18:55.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T01:18:55.185Z"
             },
             {
               "$type": "Document",
@@ -321,8 +293,7 @@
               "RelativeToolTip": "benhvien\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAuwC4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:25:16.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T13:25:16.493Z"
             },
             {
               "$type": "Document",
@@ -330,16 +301,12 @@
               "Title": "DonationController.cs",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\DonationController.cs",
-              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs*",
-              "RelativeToolTip": "benhvien\\Controllers\\DonationController.cs*",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\source\\repos\\benhvien\\benhvien\\Controllers\\DonationController.cs",
+              "RelativeToolTip": "benhvien\\Controllers\\DonationController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwHkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T03:18:34.504Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
@@ -351,8 +318,7 @@
               "RelativeToolTip": "benhvien\\Models\\BloodTypeStatistic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T13:41:42.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:41:42.3Z"
             },
             {
               "$type": "Document",
@@ -364,8 +330,7 @@
               "RelativeToolTip": "benhvien\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T04:05:06.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T04:05:06.192Z"
             },
             {
               "$type": "Document",
@@ -377,19 +342,18 @@
               "RelativeToolTip": "benhvien\\Models\\User.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA7wBEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T13:46:44.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T13:46:44.853Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SQLQuery3.sql ",
+              "Title": "hq51uogd..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\hq51uogd..sql",
-              "ToolTip": "SQLQuery3.sql *",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\hq51uogd..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T13:47:06.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:47:06.365Z"
             },
             {
               "$type": "Document",
@@ -401,8 +365,7 @@
               "RelativeToolTip": "benhvien\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAACYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:19:22.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T13:19:22.086Z"
             },
             {
               "$type": "Document",
@@ -414,8 +377,7 @@
               "RelativeToolTip": "benhvien\\Views\\Account\\Profile.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAuwA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T08:02:51.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T08:02:51.773Z"
             },
             {
               "$type": "Document",
@@ -427,8 +389,7 @@
               "RelativeToolTip": "benhvien\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAEEAAAAAAAAAAAAuwFgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-26T03:50:24.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T03:50:24.712Z"
             },
             {
               "$type": "Document",
@@ -440,8 +401,7 @@
               "RelativeToolTip": "benhvien\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T13:35:12.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T13:35:12.651Z"
             },
             {
               "$type": "Document",
@@ -453,19 +413,18 @@
               "RelativeToolTip": "benhvien\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-23T13:46:54.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T13:46:54.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "SQLQuery2.sql ",
+              "Title": "0narhwfk..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\0narhwfk..sql",
-              "ToolTip": "SQLQuery2.sql *",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\0narhwfk..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T13:40:45.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:40:45.276Z"
             },
             {
               "$type": "Document",
@@ -477,8 +436,7 @@
               "RelativeToolTip": "benhvien\\Views\\Admin\\Users.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-15T16:02:13.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T16:02:13.905Z"
             },
             {
               "$type": "Document",
@@ -490,8 +448,7 @@
               "RelativeToolTip": "benhvien\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-19T02:50:37.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T02:50:37.968Z"
             },
             {
               "$type": "Document",
@@ -503,19 +460,18 @@
               "RelativeToolTip": "benhvien\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:05:35.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T13:05:35.019Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "SQLQuery1.sql ",
+              "Title": "lxhk1cdg..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\lxhk1cdg..sql",
-              "ToolTip": "SQLQuery1.sql *",
+              "ToolTip": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\lxhk1cdg..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T13:10:43.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T13:10:43.705Z"
             },
             {
               "$type": "Document",
@@ -920,6 +876,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-23T13:40:29.418Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
