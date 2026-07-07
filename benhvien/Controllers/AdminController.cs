@@ -72,25 +72,53 @@ namespace benhvien.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult CreateHospital(Hospital model) // Sửa từ User sang Hospital
+        public IActionResult CreateHospital(Hospital model)
         {
             ModelState.Remove("Description");
-
             ModelState.Remove("Users");
             ModelState.Remove("BloodRequests");
+
+            // Kiểm tra bắt buộc
+            if (string.IsNullOrWhiteSpace(model.Name))
+                ModelState.AddModelError("Name", "Tên bệnh viện không được để trống.");
+
+            if (string.IsNullOrWhiteSpace(model.Email))
+                ModelState.AddModelError("Email", "Email không được để trống.");
+
+            if (string.IsNullOrWhiteSpace(model.Phone))
+                ModelState.AddModelError("Phone", "Số điện thoại không được để trống.");
+
+            if (string.IsNullOrWhiteSpace(model.Address))
+                ModelState.AddModelError("Address", "Địa chỉ không được để trống.");
+
+            // Kiểm tra Email trùng trong Users
+            if (_context.Users.Any(u => u.Email == model.Email))
+                ModelState.AddModelError("Email", "Email đã tồn tại trong hệ thống người dùng.");
+
+            // Kiểm tra SĐT trùng trong Users
+            if (_context.Users.Any(u => u.Phone == model.Phone))
+                ModelState.AddModelError("Phone", "Số điện thoại đã tồn tại trong hệ thống người dùng.");
+
+            // Kiểm tra Email trùng trong Hospitals
+            if (_context.Hospitals.Any(h => h.Email == model.Email))
+                ModelState.AddModelError("Email", "Email bệnh viện đã tồn tại.");
+
+            // Kiểm tra SĐT trùng trong Hospitals
+            if (_context.Hospitals.Any(h => h.Phone == model.Phone))
+                ModelState.AddModelError("Phone", "Số điện thoại bệnh viện đã tồn tại.");
+
             if (!ModelState.IsValid)
                 return View(model);
 
-            // Thêm các logic tương ứng của bảng Hospital nếu có (ví dụ: ngày tạo...)
-            // model.CreatedAt = DateTime.Now; 
             model.CreatedAt = DateTime.Now;
-            _context.Hospitals.Add(model); // Thêm vào bảng Hospitals
+            model.IsActive = true;
+
+            _context.Hospitals.Add(model);
             _context.SaveChanges();
 
             TempData["Success"] = "Tạo Hospital thành công";
             return RedirectToAction(nameof(Hospital));
         }
-
 
         // ================= EDIT =================
         [HttpGet]

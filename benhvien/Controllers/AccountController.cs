@@ -88,49 +88,54 @@ namespace benhvien.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Login(string email, string password)
         {
-            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
                 ViewBag.Error = "Vui lòng nhập đầy đủ thông tin";
                 return View();
             }
 
+            // Đăng nhập User
             var user = _context.Users
                 .Include(u => u.Role)
-                .FirstOrDefault(x => x.Email == email && x.Password == password);
+                .FirstOrDefault(u => u.Email == email && u.Password == password);
 
-            if (user == null)
+            if (user != null)
             {
-                ViewBag.Error = "Sai email hoặc mật khẩu";
-                return View();
+                HttpContext.Session.SetInt32("UserId", user.Id);
+                HttpContext.Session.SetInt32("HospitalId", user.HospitalId ?? 0);
+                HttpContext.Session.SetString("FullName", user.FullName ?? "");
+                HttpContext.Session.SetString("Role", user.Role?.RoleName ?? "");
+
+                switch (user.Role?.RoleName)
+                {
+                    case "Admin":
+                        return RedirectToAction("Index", "Admin");
+
+                    case "Staff":
+                        return RedirectToAction("Index", "Staff");
+
+                    case "User":
+                        return RedirectToAction("Index", "User");
+                }
             }
 
-            HttpContext.Session.SetInt32("UserId", user.Id);
+            // Đăng nhập Hospital
+            var hospital = _context.Hospitals
+                .FirstOrDefault(h => h.Email == email
+                                  && h.Password == password
+                                  && h.IsActive);
 
-            HttpContext.Session.SetInt32("HospitalId", user.HospitalId ?? 0);
-
-            HttpContext.Session.SetString("FullName", user.FullName ?? "");
-
-            HttpContext.Session.SetString("Role", user.Role?.RoleName ?? "");
-
-            switch (user.Role?.RoleName)
+            if (hospital != null)
             {
-                case "Admin":
-                    return RedirectToAction("Index", "Admin");
+                HttpContext.Session.SetInt32("HospitalId", hospital.Id);
+                HttpContext.Session.SetString("HospitalName", hospital.Name);
+                HttpContext.Session.SetString("Role", "Hospital");
 
-                case "Hospital":
-                    return RedirectToAction("Index", "Hospital");
-
-                case "Staff":
-                    return RedirectToAction("Index", "Staff");
-
-                case "User":
-                    return RedirectToAction("Index", "User");
-
-                default:
-                    HttpContext.Session.Clear();
-                    ViewBag.Error = "Tài khoản không hợp lệ";
-                    return View();
+                return RedirectToAction("Index", "Hospital");
             }
+
+            ViewBag.Error = "Sai email hoặc mật khẩu";
+            return View();
         }
         public IActionResult Logout()
         {
