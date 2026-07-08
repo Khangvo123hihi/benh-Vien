@@ -1,5 +1,18 @@
 ﻿@using Microsoft.AspNetCore.Http
+@using benhvien.Data
+@inject ApplicationDbContext _context
 
+@{
+    int unread = 0;
+
+    var userId = Context.Session.GetInt32("UserId");
+
+    if (userId != null)
+    {
+        unread = _context.Notifications
+            .Count(x => x.UserId == userId && !x.IsRead);
+    }
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,8 +74,19 @@
                     @if (Context.Session.GetString("FullName") != null)
                     {
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-controller="User" asp-action="MyNotification">
-                                <i class="bi bi-bell-fill"></i> Thông báo
+                            <a class="nav-link text-white position-relative"
+                               asp-controller="Notification"
+                               asp-action="Index">
+
+                                <i class="bi bi-bell-fill fs-5"></i>
+
+                                @if (unread > 0)
+                                {
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                                        @unread
+                                    </span>
+                                }
+
                             </a>
                         </li>
 
@@ -137,27 +161,25 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Kiểm tra xem User đã đăng nhập chưa thông qua sự tồn tại của nút Hồ sơ
-            var isLoggedIn = '@(Context.Session.GetString("UserId") != null)' === 'True';
+           var isLoggedIn = '@(Context.Session.GetInt32("UserId") != null)' === 'True';
 
             if (isLoggedIn) {
                 // Hàm tự động gọi lên Server lấy thông báo mới nhất chưa đọc
                 function checkNewNotification() {
-                    fetch('/User/GetLatestUnreadNotification')
+                    fetch('/Notification/GetLatestUnreadNotification')
                         .then(response => response.json())
                         .then(data => {
-                            if (data && data.hasNew) {
-                                // Gán dữ liệu vào ô Toast ngoài giao diện
-                                document.getElementById('toastTitle').innerText = data.title;
-                                document.getElementById('toastBody').innerText = data.message;
+                                   if (data.hasNew) {
 
-                                // Bật âm thanh ting ting
-                                document.getElementById('notiAudio').play().catch(e => console.log("Chặn âm thanh do tương tác"));
+            document.getElementById("toastTitle").innerText = data.title;
+            document.getElementById("toastBody").innerText = data.message;
 
-                                // Trượt khung thông báo lên
-                                var toastElement = document.getElementById('notiToast');
-                                var toast = new bootstrap.Toast(toastElement);
-                                toast.show();
-                            }
+            document.getElementById("notiAudio")
+                .play()
+                .catch(() => { });
+
+            new bootstrap.Toast(document.getElementById("notiToast")).show();
+        }
                         })
                         .catch(err => console.error("Lỗi kiểm tra thông báo:", err));
                 }

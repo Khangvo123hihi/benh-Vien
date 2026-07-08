@@ -160,5 +160,39 @@ namespace benhvien.Controllers
             TempData["Success"] = "Cập nhật Hospital thành công";
             return RedirectToAction(nameof(Hospital));
         }
+        [HttpGet]
+        public IActionResult DeleteHospital(int id)
+        {
+            var hospital = _context.Hospitals.FirstOrDefault(h => h.Id == id);
+
+            if (hospital == null)
+                return NotFound();
+
+            return View(hospital);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteHospitalConfirmed(int id)
+        {
+            var hospital = _context.Hospitals
+                .Include(h => h.Users)
+                .FirstOrDefault(h => h.Id == id);
+
+            if (hospital == null)
+                return NotFound();
+
+            // Nếu còn User liên kết thì không cho xóa
+            if (hospital.Users.Any())
+            {
+                TempData["Error"] = "Không thể xóa vì bệnh viện vẫn còn tài khoản người dùng.";
+                return RedirectToAction(nameof(Hospital));
+            }
+
+            _context.Hospitals.Remove(hospital);
+            _context.SaveChanges();
+
+            TempData["Success"] = "Đã xóa bệnh viện.";
+            return RedirectToAction(nameof(Hospital));
+        }
     }
 }

@@ -1,24 +1,28 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace benhvien.Models
+﻿using benhvien.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace benhvien.Models;
+public class BloodRequest
 {
-    public class BloodRequest
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        public int HospitalId { get; set; }
-        
-        [ForeignKey(nameof(HospitalId))]
-        public virtual Hospital? Hospital { get; set; }
+    public int HospitalId { get; set; }
 
-        public string? BloodType { get; set; }
+    [ForeignKey(nameof(HospitalId))]
+    public virtual Hospital? Hospital { get; set; }
 
-        public int QuantityNeeded { get; set; }
+    // Thêm dòng này
+    public int? BloodTypeId { get; set; }
 
-        public string? Description { get; set; }
+    [ForeignKey(nameof(BloodTypeId))]
+    public virtual BloodType? BloodTypeNavigation { get; set; }
 
-        public bool IsUrgent { get; set; }
+    public string? BloodType { get; set; }
 
-        public DateTime CreatedAt { get; set; }
-    }
+    public int QuantityNeeded { get; set; }
+
+    public string? Description { get; set; }
+
+    public bool IsUrgent { get; set; }
+
+    public DateTime CreatedAt { get; set; }
 }

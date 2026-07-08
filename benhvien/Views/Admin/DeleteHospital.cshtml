@@ -1,0 +1,21 @@
+﻿@model benhvien.Models.Hospital
+
+<h3>Bạn có chắc muốn xóa bệnh viện này?</h3>
+
+<hr />
+
+<p><strong>Tên:</strong> @Model.Name</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Điện thoại:</strong> @Model.Phone</p>
+
+<form asp-action="DeleteHospitalConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-danger">
+        Xóa
+    </button>
+
+    <a asp-action="Hospital" class="btn btn-secondary">
+        Hủy
+    </a>
+</form>

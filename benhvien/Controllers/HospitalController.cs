@@ -67,6 +67,35 @@ namespace benhvien.Controllers
             _context.BloodRequests.Add(request);
             _context.SaveChanges();
 
+            // Tìm người dùng cùng nhóm máu
+            var users = _context.Users
+                .Include(u => u.BloodType)
+                .Where(u => u.IsActive
+                    && u.BloodType != null
+                    && (u.BloodType.ABO + u.BloodType.Rh) == request.BloodType)
+                .ToList();
+
+            foreach (var user in users)
+            {
+                Notification notification = new Notification
+                {
+                    UserId = user.Id,
+                    HospitalId = request.HospitalId,
+                    Title = "🩸 Có yêu cầu hiến máu mới",
+
+                    Message =
+                        $"Bệnh viện đang cần nhóm máu {request.BloodType}. " +
+                        $"Số lượng: {request.QuantityNeeded}. " +
+                        $"Vui lòng đăng ký nếu bạn có thể hỗ trợ.",
+
+                    IsRead = false,
+                    CreatedAt = DateTime.Now
+                };
+
+                _context.Notifications.Add(notification);
+            }
+
+            _context.SaveChanges();
             TempData["Success"] = "Đăng yêu cầu máu thành công";
 
             return RedirectToAction(nameof(Index));

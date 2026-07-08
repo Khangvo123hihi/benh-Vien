@@ -1,0 +1,83 @@
+﻿@model List<benhvien.Models.Notification>
+
+<h2>Thông báo</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Chưa có thông báo.
+    </div>
+}
+else
+{
+    <table class="table table-bordered">
+
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Nội dung</th>
+                <th>Ngày</th>
+                <th>Trạng thái</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>@item.Title</td>
+
+                    <td>@item.Message</td>
+
+                    <td>@item.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+
+                    <td>
+
+                        @if (item.IsRead)
+                        {
+                            <span class="badge bg-success">
+                                Đã đọc
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">
+                                Chưa đọc
+                            </span>
+                        }
+
+                    </td>
+
+                    <td>
+
+                        @if (!item.IsRead)
+                        {
+                            <a asp-action="Read"
+                               asp-route-id="@item.Id"
+                               class="btn btn-primary btn-sm">
+
+                                Đánh dấu đã đọc
+
+                            </a>
+                        }
+
+                        <a asp-action="Delete"
+                           asp-route-id="@item.Id"
+                           class="btn btn-danger btn-sm">
+
+                            Xóa
+
+                        </a>
+
+                    </td>
+
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+}
