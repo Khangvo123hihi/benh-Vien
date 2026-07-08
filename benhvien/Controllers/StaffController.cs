@@ -1,6 +1,7 @@
 ﻿using benhvien.Data;
 using benhvien.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace benhvien.Controllers
 {
@@ -91,6 +92,7 @@ namespace benhvien.Controllers
                 .ToList();
 
             var appointments = _context.DonationAppointments
+                 .Include(x => x.User)
                 .Where(x => bloodRequestIds.Contains(x.BloodRequestId))
                 .OrderByDescending(x => x.DonateDate)
                 .ToList();
@@ -101,7 +103,19 @@ namespace benhvien.Controllers
         // =========================
         // DUYỆT
         // =========================
+        private void SendNotification(int userId, string title, string message)
+        {
+            var notification = new Notification
+            {
+                UserId = userId,
+                Title = title,
+                Message = message,
+                IsRead = false,
+                CreatedAt = DateTime.Now
+            };
 
+            _context.Notifications.Add(notification);
+        }
         public IActionResult Approve(int id)
         {
             var appointment = _context.DonationAppointments
@@ -112,13 +126,18 @@ namespace benhvien.Controllers
 
             appointment.Status = "Approved";
 
+            SendNotification(
+                appointment.UserId,
+                "Lịch hẹn được duyệt",
+                "Lịch hẹn hiến máu của bạn đã được bệnh viện duyệt. Vui lòng đến đúng thời gian đã đăng ký."
+            );
+
             _context.SaveChanges();
 
             TempData["Success"] = "Đã duyệt lịch hẹn";
 
             return RedirectToAction(nameof(Appointments));
         }
-
         // =========================
         // TỪ CHỐI
         // =========================
@@ -130,8 +149,13 @@ namespace benhvien.Controllers
 
             if (appointment == null)
                 return NotFound();
-
             appointment.Status = "Rejected";
+
+            SendNotification(
+                appointment.UserId,
+                "Lịch hẹn bị từ chối",
+                "Lịch hẹn hiến máu của bạn đã bị từ chối. Vui lòng liên hệ bệnh viện để biết thêm chi tiết."
+            );
 
             _context.SaveChanges();
 
@@ -154,6 +178,12 @@ namespace benhvien.Controllers
 
             appointment.Status = "Completed";
 
+            SendNotification(
+                appointment.UserId,
+                "Hiến máu thành công",
+                "Cảm ơn bạn đã tham gia hiến máu. Chúc bạn nhiều sức khỏe!"
+            );
+
             _context.SaveChanges();
 
             TempData["Success"] = "Hiến máu thành công";
@@ -175,8 +205,13 @@ namespace benhvien.Controllers
 
             appointment.Status = "Failed";
 
-            _context.SaveChanges();
+            SendNotification(
+                appointment.UserId,
+                "Hiến máu không thành công",
+                "Buổi hiến máu của bạn chưa thể hoàn thành. Vui lòng liên hệ bệnh viện để biết thêm thông tin."
+            );
 
+            _context.SaveChanges();
             TempData["Success"] = "Hiến máu thất bại";
 
             return RedirectToAction(nameof(Appointments));
@@ -229,8 +264,8 @@ namespace benhvien.Controllers
             if (user == null)
                 return NotFound();
 
-            user.BloodType = model.BloodType;
-            user.Age = model.Age;
+            user.BloodTypeId = model.BloodTypeId;
+            user.DateOfBirth = model.DateOfBirth;
             user.Address = model.Address;
 
             _context.SaveChanges();
@@ -239,6 +274,24 @@ namespace benhvien.Controllers
 
             return RedirectToAction(nameof(UserDetail),
                 new { id = user.Id });
+        }
+        public IActionResult HealthDetail(int userId)
+        {
+            if (!IsStaff())
+                return RedirectToAction("Login", "Account");
+
+            var health = _context.HealthDeclarations
+                .Include(x => x.User)
+                .OrderByDescending(x => x.CreatedAt)
+                .FirstOrDefault(x => x.UserId == userId);
+
+            if (health == null)
+            {
+                TempData["Error"] = "Người dùng chưa khai báo sức khỏe.";
+                return RedirectToAction(nameof(Appointments));
+            }
+
+            return View(health);
         }
     }
 }

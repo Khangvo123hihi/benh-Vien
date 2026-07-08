@@ -36,5 +36,6 @@ namespace benhvien.Data
                         .HasNoKey(); // Nếu EF Core yêu cầu (hoặc dùng [Key] ở model trên đều được)
 
         }
+        public DbSet<HealthDeclaration> HealthDeclarations { get; set; }
     }
 }

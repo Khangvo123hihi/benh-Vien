@@ -14,6 +14,7 @@
     <thead>
         <tr>
             <th>ID</th>
+            <th>Họ và tên</th>
             <th>Ngày hiến</th>
             <th>Địa điểm</th>
             <th>Nhóm máu</th>
@@ -29,6 +30,7 @@
             <tr>
 
                 <td>@item.Id</td>
+                <td>@item.User?.FullName</td>
 
                 <td>
                     @item.DonateDate.ToString("dd/MM/yyyy")
@@ -41,6 +43,12 @@
                 <td>@item.Status</td>
 
                 <td>
+
+                    <a asp-action="HealthDetail"
+                       asp-route-userId="@item.UserId"
+                       class="btn btn-secondary btn-sm">
+                        Phiếu sức khỏe
+                    </a>
 
                     <a asp-action="Approve"
                        asp-route-id="@item.Id"

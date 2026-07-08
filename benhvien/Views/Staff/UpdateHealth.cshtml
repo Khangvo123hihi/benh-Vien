@@ -7,15 +7,23 @@
     <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label>Nhóm máu</label>
-        <input asp-for="BloodType"
-               class="form-control" />
+        <label class="fw-bold">Nhóm máu</label>
+        <select asp-for="BloodTypeId" name="BloodTypeId" class="form-control" required>
+            <option value="">-- Chọn nhóm máu --</option>
+            <option value="7">O+</option>
+            <option value="8">O-</option>
+            <option value="1">A+</option>
+            <option value="2">A-</option>
+            <option value="3">B+</option>
+            <option value="4">B-</option>
+            <option value="5">AB+</option>
+            <option value="6">AB-</option>
+        </select>
     </div>
 
     <div class="mb-3">
-        <label>Tuổi</label>
-        <input asp-for="Age"
-               class="form-control" />
+        <label>Ngày sinh</label>
+        <input asp-for="DateOfBirth" type="date" class="form-control" />
     </div>
 
     <div class="mb-3">

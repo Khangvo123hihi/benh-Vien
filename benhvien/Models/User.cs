@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace benhvien.Models
 {
@@ -17,8 +18,25 @@ namespace benhvien.Models
         [Required]
         public string Password { get; set; }
 
-        public int? Age { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? DateOfBirth { get; set; }
+        [NotMapped]
+        public int? Age
+        {
+            get
+            {
+                if (DateOfBirth == null)
+                    return null;
 
+                var today = DateTime.Today;
+                var age = today.Year - DateOfBirth.Value.Year;
+
+                if (DateOfBirth.Value.Date > today.AddYears(-age))
+                    age--;
+
+                return age;
+            }
+        }
         public string? Address { get; set; }
 
         public int? RoleId { get; set; }

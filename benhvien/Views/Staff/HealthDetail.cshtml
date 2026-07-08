@@ -1,0 +1,76 @@
+﻿@model benhvien.Models.HealthDeclaration
+
+<h2>Phiếu khai báo sức khỏe</h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Họ và tên</th>
+        <td>@Model.User?.FullName</td>
+    </tr>
+
+    <tr>
+        <th>Cân nặng</th>
+        <td>@Model.Weight kg</td>
+    </tr>
+
+    <tr>
+        <th>Chiều cao</th>
+        <td>@Model.Height cm</td>
+    </tr>
+
+    <tr>
+        <th>Nhiệt độ</th>
+        <td>@Model.Temperature °C</td>
+    </tr>
+
+    <tr>
+        <th>Huyết áp</th>
+        <td>@Model.BloodPressure</td>
+    </tr>
+
+    <tr>
+        <th>Lần hiến gần nhất</th>
+        <td>@Model.LastDonationDate?.ToString("dd/MM/yyyy")</td>
+    </tr>
+
+    <tr>
+        <th>Đang bị bệnh</th>
+        <td>@(Model.IsSick == true ? "Có" : "Không")</td>
+    </tr>
+
+    <tr>
+        <th>Đang dùng thuốc</th>
+        <td>@(Model.IsTakingMedicine == true ? "Có" : "Không")</td>
+    </tr>
+
+    <tr>
+        <th>Nguy cơ bệnh truyền nhiễm</th>
+        <td>@(Model.HasInfectiousRisk == true ? "Có" : "Không")</td>
+    </tr>
+
+    <tr>
+        <th>Uống rượu bia trong 24 giờ</th>
+        <td>@(Model.DrinkAlcohol24h == true ? "Có" : "Không")</td>
+    </tr>
+
+    <tr>
+        <th>Xăm/xỏ khuyên trong 6 tháng</th>
+        <td>@(Model.HasTattooRecently == true ? "Có" : "Không")</td>
+    </tr>
+
+    <tr>
+        <th>Tiền sử bệnh</th>
+        <td>@Model.MedicalHistory</td>
+    </tr>
+
+    <tr>
+        <th>Ghi chú</th>
+        <td>@Model.Note</td>
+    </tr>
+
+</table>
+
+<a asp-action="Appointments" class="btn btn-secondary">
+    Quay lại
+</a>
