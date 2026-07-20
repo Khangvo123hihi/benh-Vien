@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\benh-Vien\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\stafflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\stafflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\hospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\hospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\staff\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\staff\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\bloodrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\bloodrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,32 +51,12 @@
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\createstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\hospital\\stafflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\hospital\\stafflist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\hospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\hospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\createhospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -53,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\deletehospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\deletehospital.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\health\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -91,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -105,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\views\\staff\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|solutionrelative:benhvien\\views\\staff\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50AF9BDF-1467-44FF-9FE6-4ED282BD53DA}|benhvien\\benhvien.csproj|c:\\users\\pc\\source\\repos\\benh-vien\\benhvien\\models\\donationappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -280,11 +284,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 41,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "benhvien\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-20T15:03:32.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Create.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\Create.cshtml",
@@ -297,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Delete.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\Delete.cshtml",
@@ -310,33 +327,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Edit.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Edit.cshtml",
-              "RelativeToolTip": "benhvien\\Views\\Hospital\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Edit.cshtml*",
+              "RelativeToolTip": "benhvien\\Views\\Hospital\\Edit.cshtml*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-20T14:52:43.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Stafflist.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Stafflist.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\Stafflist.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Stafflist.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Hospital\\Stafflist.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-20T14:52:34.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "DeleteHospital.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\DeleteHospital.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\DeleteHospital.cshtml",
@@ -349,20 +366,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Hospital.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\Hospital.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Hospital.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\Hospital.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Admin\\Hospital.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-20T14:45:08.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Shared\\_LayoutAdmin.cshtml",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Health\\Create.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Health\\Create.cshtml",
@@ -388,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\Index.cshtml",
@@ -401,19 +418,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 7,
               "Title": "Appointments.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Staff\\Appointments.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Staff\\Appointments.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Staff\\Appointments.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Staff\\Appointments.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-08T06:07:25.721Z"
+              "WhenOpened": "2026-07-08T06:07:25.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "BloodRequests.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Staff\\BloodRequests.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Staff\\BloodRequests.cshtml",
@@ -425,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "UpdateHealth.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Staff\\UpdateHealth.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Staff\\UpdateHealth.cshtml",
@@ -437,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "UserDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Staff\\UserDetail.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Staff\\UserDetail.cshtml",
@@ -449,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "jjgd2ue3..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\jjgd2ue3..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\jjgd2ue3..sql",
@@ -460,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DonationAppointment.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\DonationAppointment.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\DonationAppointment.cs",
@@ -472,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "che3qpgm..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\che3qpgm..sql",
@@ -483,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "BloodType.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\BloodType.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\BloodType.cs",
@@ -495,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "BloodTypeController1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\BloodTypeController1.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\BloodTypeController1.cs",
@@ -507,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\AccountController.cs",
@@ -519,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "HospitalController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\HospitalController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\HospitalController.cs",
@@ -531,19 +549,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAABUBAAAAAAAAAAAgwBkBAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwAABAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-10T13:25:16.493Z"
+              "WhenOpened": "2026-06-10T13:25:16.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\User\\Index.cshtml",
@@ -555,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "5p2rzqgn..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\5p2rzqgn..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\5p2rzqgn..sql",
@@ -566,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "DonationController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\DonationController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\DonationController.cs",
@@ -578,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "BloodTypeStatistic.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\BloodTypeStatistic.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\BloodTypeStatistic.cs",
@@ -590,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\ApplicationDbContext.cs",
@@ -602,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\User.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\User.cs",
@@ -614,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "hq51uogd..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\hq51uogd..sql",
@@ -625,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Shared\\_Layout.cshtml",
@@ -638,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Profile.cshtml",
@@ -651,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Index.cshtml",
@@ -664,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\AdminController.cs",
@@ -676,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "0narhwfk..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\0narhwfk..sql",
@@ -687,20 +706,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\Users.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\Users.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\Users.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Admin\\Users.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-15T16:02:13.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\_ViewStart.cshtml",
@@ -712,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\_ViewImports.cshtml",
@@ -724,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "lxhk1cdg..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\lxhk1cdg..sql",
@@ -735,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\Role.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\Role.cs",
@@ -747,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ih1mfqgp..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\ih1mfqgp..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\ih1mfqgp..sql",
@@ -758,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "dbo.Roles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Roles.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Roles.sql",
@@ -767,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "BloodRequest.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\BloodRequest.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\BloodRequest.cs",
@@ -779,20 +798,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\Index.cshtml*",
-              "RelativeToolTip": "benhvien\\Views\\BloodRequest\\Index.cshtml*",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAYwK4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\Index.cshtml",
+              "RelativeToolTip": "benhvien\\Views\\BloodRequest\\Index.cshtml",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAYwLQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-31T09:40:04.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "dbo.BloodRequests.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.BloodRequests.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.BloodRequests.sql",
@@ -801,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "bhphe04m..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\bhphe04m..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\bhphe04m..sql",
@@ -812,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\Article.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\Article.cs",
@@ -824,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "MyRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\MyRequest.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\MyRequest.cshtml",
@@ -836,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "uub1bt5l..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\uub1bt5l..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\uub1bt5l..sql",
@@ -847,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Search.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Home\\Search.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Search.cshtml",
@@ -859,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "jrqshmoa..sql",
               "DocumentMoniker": "C:\\Users\\nguy\u00EAn khang\\AppData\\Local\\Temp\\jrqshmoa..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\nguy\u00EAn khang\\AppData\\Local\\Temp\\jrqshmoa..sql",
@@ -870,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "BloodRegister.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Donation\\BloodRegister.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Donation\\BloodRegister.cshtml",
@@ -883,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\HomeController.cs",
@@ -895,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Hospital.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\Hospital.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\Hospital.cs",
@@ -907,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ChangePassword.cshtml",
@@ -919,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Account\\ForgotPassword.cshtml",
@@ -931,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CreateHospital.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\CreateHospital.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\CreateHospital.cshtml",
@@ -944,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Users.sql",
@@ -953,20 +972,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CreateStaff.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Hospital\\CreateStaff.cshtml",
               "RelativeToolTip": "benhvien\\Views\\Hospital\\CreateStaff.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-18T01:14:26.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "EditHospital.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Admin\\EditHospital.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Admin\\EditHospital.cshtml",
@@ -979,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "DonationHistory.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Models\\DonationHistory.cs",
               "RelativeDocumentMoniker": "benhvien\\Models\\DonationHistory.cs",
@@ -991,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\Create.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Create.cshtml",
@@ -1003,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "dbo.Hospitals.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Hospitals.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BloodLinkDB/True/SqlTable/dbo.Hospitals.sql",
@@ -1012,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "BloodRequestController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\BloodRequestController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\BloodRequestController.cs",
@@ -1024,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "History.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Donation\\History.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Donation\\History.cshtml",
@@ -1036,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Account\\Login.cshtml",
@@ -1048,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Home\\Index.cshtml",
@@ -1061,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "DonationGuide.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\Home\\DonationGuide.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\Home\\DonationGuide.cshtml",
@@ -1073,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "benhvien\\Controllers\\UserController.cs",
@@ -1085,7 +1104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Program.cs",
               "RelativeDocumentMoniker": "benhvien\\Program.cs",
@@ -1097,7 +1116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\Views\\BloodRequest\\Edit.cshtml",
               "RelativeDocumentMoniker": "benhvien\\Views\\BloodRequest\\Edit.cshtml",
@@ -1109,7 +1128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\appsettings.json",
               "RelativeDocumentMoniker": "benhvien\\appsettings.json",
@@ -1122,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\appsettings.Development.json",
               "RelativeDocumentMoniker": "benhvien\\appsettings.Development.json",
