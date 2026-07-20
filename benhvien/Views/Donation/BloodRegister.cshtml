@@ -3,13 +3,96 @@
     ViewData["Title"] = "Đăng ký hiến máu";
 }
 
+<style>
+    .form-hero {
+        background: linear-gradient(135deg, #b71c2b 0%, #e63950 60%, #ff6b7a 100%);
+        border-radius: 18px 18px 0 0;
+        padding: 1.6rem 2rem;
+        color: #fff;
+    }
+
+        .form-hero h3 {
+            font-weight: 700;
+            margin: 0;
+            font-size: 1.4rem;
+        }
+
+        .form-hero p {
+            margin: 0.2rem 0 0;
+            opacity: 0.9;
+            font-size: 0.92rem;
+        }
+
+    .register-card {
+        border: none;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 28px rgba(0, 0, 0, 0.09);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #495057;
+        font-size: 0.9rem;
+    }
+
+    .form-control,
+    .form-select {
+        border-radius: 10px;
+        border: 1px solid #e2e2e2;
+        padding: 0.55rem 0.8rem;
+        transition: border-color 0.15s ease;
+    }
+
+        .form-control:hover,
+        .form-select:hover {
+            border-color: #f1a6ae;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: #e63950;
+            box-shadow: 0 0 0 0.2rem rgba(230, 57, 80, 0.15);
+        }
+
+        .form-control[readonly] {
+            background: #fff5f5;
+            font-weight: 700;
+            color: #c9184a;
+        }
+
+    .btn-submit {
+        background: linear-gradient(135deg, #d90429, #ef233c);
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.65rem 1.8rem;
+        color: #fff;
+        transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+        .btn-submit:hover {
+            color: #fff;
+            opacity: 0.92;
+            transform: translateY(-2px);
+        }
+
+    .btn-back {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.65rem 1.6rem;
+    }
+</style>
+
 <div class="container mt-4">
-    <div class="card shadow">
-        <div class="card-header bg-danger text-white">
-            <h3>Đăng ký hiến máu</h3>
+    <div class="card register-card">
+
+        <div class="form-hero">
+            <h3><i class="bi bi-heart-pulse-fill me-2"></i>Đăng ký hiến máu</h3>
+            <p>Vui lòng điền đầy đủ thông tin bên dưới</p>
         </div>
 
-       <div class="card-body">
+        <div class="card-body p-4">
 
             <div asp-validation-summary="All" class="text-danger"></div>
 
@@ -49,6 +132,7 @@
                 </div>
 
                 <div class="mb-3">
+                    <label class="form-label">Nhóm máu</label>
                     <input asp-for="BloodType"
                            class="form-control"
                            readonly />
@@ -103,12 +187,12 @@
 
                 <div class="text-center">
                     <button type="submit"
-                            class="btn btn-danger">
-                        Xác nhận đăng ký hiến máu
+                            class="btn btn-submit">
+                        <i class="bi bi-check-circle-fill me-1"></i>Xác nhận đăng ký hiến máu
                     </button>
 
                     <a href="javascript:history.back()"
-                       class="btn btn-secondary">
+                       class="btn btn-outline-secondary btn-back">
                         Quay lại
                     </a>
                 </div>

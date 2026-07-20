@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguyên khang\\source\\repos\\benhvien\\benhvien\\benhvien.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\benhvien.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguyên khang\\source\\repos\\benhvien\\benhvien\\benhvien.csproj": {
+    "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\benhvien.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyên khang\\source\\repos\\benhvien\\benhvien\\benhvien.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\benhvien.csproj",
         "projectName": "benhvien",
-        "projectPath": "C:\\Users\\nguyên khang\\source\\repos\\benhvien\\benhvien\\benhvien.csproj",
-        "packagesPath": "C:\\Users\\nguyên khang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyên khang\\source\\repos\\benhvien\\benhvien\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\benhvien.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\benh-Vien\\benhvien\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguyên khang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

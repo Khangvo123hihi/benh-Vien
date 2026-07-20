@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("benhvien")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f5262b613c5d32b8e5ef425ba96dc629b671f06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+120db4ec8ee530e7bc2e872736300741ca46aee7")]
 [assembly: System.Reflection.AssemblyProductAttribute("benhvien")]
 [assembly: System.Reflection.AssemblyTitleAttribute("benhvien")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

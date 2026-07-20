@@ -7,110 +7,142 @@
 
     <!-- HERO -->
     <section class="hero-section">
-        <div class="container text-center">
-            <h1>Kết Nối Những Giọt Máu - Trao Hy Vọng Sống</h1>
-            <p class="lead">
-                Nền tảng hỗ trợ đăng ký hiến máu và tìm kiếm nguồn máu nhanh chóng.
-            </p>
-
-            <div class="mt-4">
-                <a asp-controller="Account"
-                   asp-action="Login"
-                   class="btn btn-danger btn-lg me-3">
+        <div class="hero-bg-overlay"></div>
+        <div class="container text-center hero-content">
+            <div class="hero-badge">🩸 Nền tảng hiến máu #1 Việt Nam</div>
+            <h1>Kết Nối Những Giọt Máu<br><span class="hero-accent">Trao Hy Vọng Sống</span></h1>
+            <p class="lead">Nền tảng hỗ trợ đăng ký hiến máu và tìm kiếm nguồn máu nhanh chóng, kết nối hàng nghìn người hiến với bệnh viện trên cả nước.</p>
+            <div class="hero-buttons mt-5">
+                <a asp-controller="Account" asp-action="Register" class="btn btn-hero-primary">
+                    Đăng ký hiến máu
+                </a>
+                <a asp-controller="Account" asp-action="Login" class="btn btn-hero-outline">
                     Đăng nhập
                 </a>
-
-                <a asp-controller="Account"
-                   asp-action="Register"
-                   class="btn btn-danger btn-lg me-3">
-                    Đăng ký
-                </a>
-                <a asp-controller="Home"
-                   asp-action="DonationGuide"
-                   class="btn btn-danger btn-lg me-3">
+                <a asp-controller="Home" asp-action="DonationGuide" class="btn btn-hero-outline">
                     Hướng dẫn hiến máu
                 </a>
             </div>
         </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8f9fa" />
+            </svg>
+        </div>
     </section>
 
-    <!-- MID DƯỚI -->
-    <section class="feature-section">
+    <!-- STATS -->
+    <section class="stats-section">
         <div class="container">
-            <div class="row align-items-center">
-
-                <!-- LEFT -->
-                <div class="col-lg-6">
-                    <h2 class="mb-4">
-                        Vì sao nên tham gia?
-                    </h2>
-
-                    <div class="feature-item">
-                        ❤️ Hỗ trợ cứu sống bệnh nhân cần truyền máu khẩn cấp.
-                    </div>
-
-                    <div class="feature-item">
-                        🩸 Đăng ký hiến máu trực tuyến nhanh chóng.
-                    </div>
-
-                    <div class="feature-item">
-                        📍 Theo dõi lịch sử hiến máu cá nhân.
-                    </div>
-
-                    <div class="feature-item">
-                        🔔 Nhận thông báo khi có nhu cầu máu phù hợp.
-                    </div>
-
-                    <div class="feature-item">
-                        🏥 Kết nối trực tiếp với bệnh viện.
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number">10,000+</div>
+                        <div class="stat-label">Người hiến máu</div>
                     </div>
                 </div>
-
-                <!-- RIGHT -->
-                <div class="col-lg-6 text-center">
-                    <img src="~/images/blood-donation.png"
-                         class="img-fluid"
-                         alt="Blood Donation">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">🩸</div>
+                        <div class="stat-number">5,000+</div>
+                        <div class="stat-label">Lượt hiến thành công</div>
+                    </div>
                 </div>
-
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon">🏥</div>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Bệnh viện liên kết</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- THỐNG KÊ -->
-    <section class="stats-section">
+    <!-- FEATURES -->
+    <section class="feature-section">
         <div class="container">
-            <div class="row text-center">
-
-                <div class="col-md-4">
-                    <h2>10,000+</h2>
-                    <p>Người hiến máu</p>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="section-eyebrow">Tại sao chọn BloodLinks?</div>
+                    <h2 class="section-title">Vì sao nên tham gia?</h2>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <span class="feature-icon">❤️</span>
+                            <div>
+                                <strong>Cứu sống bệnh nhân</strong>
+                                <p>Hỗ trợ cứu sống bệnh nhân cần truyền máu khẩn cấp.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🩸</span>
+                            <div>
+                                <strong>Đăng ký trực tuyến</strong>
+                                <p>Đăng ký hiến máu trực tuyến nhanh chóng, tiện lợi.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📍</span>
+                            <div>
+                                <strong>Theo dõi lịch sử</strong>
+                                <p>Theo dõi lịch sử hiến máu cá nhân dễ dàng.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🔔</span>
+                            <div>
+                                <strong>Thông báo phù hợp</strong>
+                                <p>Nhận thông báo khi có nhu cầu máu phù hợp.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🏥</span>
+                            <div>
+                                <strong>Kết nối bệnh viện</strong>
+                                <p>Kết nối trực tiếp với bệnh viện trên toàn quốc.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <h2>5,000+</h2>
-                    <p>Lượt hiến thành công</p>
+                <div class="col-lg-6 text-center">
+                    <div class="feature-image-wrap">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5842/5842620.png" class="img-fluid feature-img" alt="Blood Donation">
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <h2>50+</h2>
-                    <p>Bệnh viện liên kết</p>
-                </div>
-
             </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2>Sẵn sàng tạo nên sự khác biệt?</h2>
+            <p>Mỗi giọt máu bạn cho đi có thể cứu đến 3 cuộc sống.</p>
+            @if (Context.Session.GetString("UserId") != null)
+            {
+                <a asp-controller="User" asp-action="Index" class="btn btn-cta">
+                    Bắt đầu ngay hôm nay
+                </a>
+            }
+            else
+            {
+                <a asp-controller="Account" asp-action="Register" class="btn btn-cta">
+                    Bắt đầu ngay hôm nay
+                </a>
+            }
         </div>
     </section>
 
 </div>
+
+<!-- FOOTER -->
 <footer class="custom-footer">
-
     <div class="container">
-        <div class="row">
-
-            <!-- Save Life -->
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h4>Save Life</h4>
-                <ul>
+        <div class="row g-4">
+            <div class="col-lg-2 col-md-6">
+                <h5 class="footer-heading">Save Life</h5>
+                <ul class="footer-links">
                     <li><a href="#">Request Blood</a></li>
                     <li><a href="#">Donate Blood</a></li>
                     <li><a href="#">Find Blood Bank</a></li>
@@ -119,50 +151,38 @@
                     <li><a href="#">Find Labs</a></li>
                 </ul>
             </div>
-
-            <!-- Register -->
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h4>Register</h4>
-                <ul>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="footer-heading">Register</h5>
+                <ul class="footer-links">
                     <li><a href="#">Donor Sign Up</a></li>
                     <li><a href="#">Blood Bank Sign Up</a></li>
                     <li><a href="#">Hospital Sign Up</a></li>
                     <li><a href="#">Lab Sign Up</a></li>
                 </ul>
             </div>
-
-            <!-- Company -->
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h4>Company</h4>
-                <ul>
+            <div class="col-lg-2 col-md-6">
+                <h5 class="footer-heading">Company</h5>
+                <ul class="footer-links">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms Of Service</a></li>
                 </ul>
             </div>
-
-            <!-- Download -->
-            <div class="col-lg-2 col-md-6 mb-4">
-                <h4>Download App</h4>
-
+            <div class="col-lg-2 col-md-6">
+                <h5 class="footer-heading">Download App</h5>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                     class="img-fluid play-store"
-                     alt="Google Play">
+                     class="img-fluid play-store mt-2" alt="Google Play" style="max-width:140px;">
             </div>
-
-            <!-- Logo + Description -->
             <div class="col-lg-4">
-                <h3 class="footer-logo">
+                <div class="footer-brand">
                     BLOOD<span>LINKS</span>
-                </h3>
-
+                </div>
                 <p class="footer-desc">
                     Blood Links là nền tảng hỗ trợ kết nối người hiến máu,
                     ngân hàng máu và bệnh viện nhằm cứu sống nhiều bệnh nhân
                     hơn mỗi ngày.
                 </p>
-
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -170,56 +190,396 @@
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-
         </div>
     </div>
-
     <div class="footer-bottom">
-        Copyright © 2026 BloodLinks. All Rights Reserved.
+        <div class="container">
+            Copyright &copy; 2026 BloodLinks. All Rights Reserved.
+        </div>
     </div>
-
 </footer>
+
 <style>
+    /* ===== GLOBAL ===== */
+    .landing-page {
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* ===== HERO ===== */
     .hero-section {
-        min-height: 50vh;
-        background: linear-gradient(135deg,#d32f2f,#b71c1c);
+        position: relative;
+        min-height: 90vh;
+        background: linear-gradient(135deg, #b71c1c 0%, #d32f2f 50%, #e53935 100%);
         color: white;
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
+        padding: 120px 0 100px;
     }
 
-        .hero-section h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
-        }
-
-        .hero-section p {
-            font-size: 1.2rem;
-        }
-
-    .feature-section {
-        padding: 80px 0;
-        background: #f8f9fa;
+    .hero-bg-overlay {
+        position: absolute;
+        inset: 0;
+        background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
 
-    .feature-item {
+    .hero-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .hero-badge {
+        display: inline-block;
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.25);
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        margin-bottom: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .hero-section h1 {
+        font-size: clamp(2.2rem, 5vw, 3.8rem);
+        font-weight: 800;
+        line-height: 1.15;
         margin-bottom: 20px;
-        font-size: 18px;
+        text-shadow: 0 2px 20px rgba(0,0,0,0.2);
     }
 
+    .hero-accent {
+        color: #ffcdd2;
+    }
+
+    .hero-section .lead {
+        font-size: 1.15rem;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn-hero-primary {
+        background: white;
+        color: #d32f2f;
+        font-weight: 700;
+        padding: 14px 32px;
+        border-radius: 8px;
+        font-size: 1rem;
+        border: none;
+        transition: all 0.2s;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+        .btn-hero-primary:hover {
+            background: #ffebee;
+            color: #b71c1c;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+
+    .btn-hero-outline {
+        background: transparent;
+        color: white;
+        font-weight: 600;
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 1rem;
+        border: 2px solid rgba(255,255,255,0.6);
+        transition: all 0.2s;
+    }
+
+        .btn-hero-outline:hover {
+            background: rgba(255,255,255,0.15);
+            border-color: white;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+    .hero-wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        line-height: 0;
+    }
+
+        .hero-wave svg {
+            width: 100%;
+            height: 80px;
+        }
+
+    /* ===== STATS ===== */
     .stats-section {
-        padding: 60px 0;
+        background: #f8f9fa;
+        padding: 60px 0 50px;
+    }
+
+    .stat-card {
+        background: white;
+        border-radius: 16px;
+        padding: 36px 24px;
+        text-align: center;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+        transition: transform 0.2s, box-shadow 0.2s;
+        border-top: 4px solid #d32f2f;
+    }
+
+        .stat-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 40px rgba(211,47,47,0.15);
+        }
+
+    .stat-icon {
+        font-size: 2.2rem;
+        margin-bottom: 12px;
+    }
+
+    .stat-number {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #d32f2f;
+        line-height: 1;
+        margin-bottom: 8px;
+    }
+
+    .stat-label {
+        font-size: 1rem;
+        color: #666;
+        font-weight: 500;
+    }
+
+    /* ===== FEATURES ===== */
+    .feature-section {
+        padding: 90px 0;
         background: white;
     }
 
-        .stats-section h2 {
-            color: #d32f2f;
-            font-size: 3rem;
-            font-weight: bold;
+    .section-eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #d32f2f;
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: #1a1a1a;
+        margin-bottom: 36px;
+        line-height: 1.25;
+    }
+
+    .feature-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 18px 20px;
+        border-radius: 12px;
+        background: #fff8f8;
+        border-left: 4px solid #ffcdd2;
+        transition: border-color 0.2s, background 0.2s;
+    }
+
+        .feature-item:hover {
+            background: #ffebee;
+            border-left-color: #d32f2f;
         }
 
-    footer {
-        margin-top: 0;
+    .feature-icon {
+        font-size: 1.6rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .feature-item strong {
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 4px;
+    }
+
+    .feature-item p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #555;
+        line-height: 1.5;
+    }
+
+    .feature-image-wrap {
+        background: linear-gradient(135deg, #ffebee, #fce4ec);
+        border-radius: 24px;
+        padding: 40px;
+        display: inline-block;
+    }
+
+    .feature-img {
+        max-height: 380px;
+        filter: drop-shadow(0 8px 24px rgba(211,47,47,0.2));
+    }
+
+    /* ===== CTA ===== */
+    .cta-section {
+        padding: 80px 0;
+        background: linear-gradient(135deg, #d32f2f, #b71c1c);
+        color: white;
+    }
+
+        .cta-section h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 14px;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            margin-bottom: 32px;
+        }
+
+    .btn-cta {
+        background: white;
+        color: #d32f2f;
+        font-weight: 700;
+        padding: 16px 40px;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        border: none;
+        transition: all 0.2s;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+        .btn-cta:hover {
+            background: #ffebee;
+            color: #b71c1c;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+        }
+
+    /* ===== FOOTER ===== */
+    .custom-footer {
+        background: #0d0d0d;
+        color: #aaa;
+        padding: 64px 0 0;
+    }
+
+    .footer-heading {
+        color: #fff;
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 18px;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+            .footer-links a:hover {
+                color: #ef5350;
+            }
+
+    .footer-brand {
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-bottom: 14px;
+    }
+
+        .footer-brand span {
+            color: #ef5350;
+        }
+
+    .footer-desc {
+        font-size: 0.88rem;
+        line-height: 1.75;
+        color: #777;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+        .social-icons a {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #1f1f1f;
+            color: #aaa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+            border: 1px solid #2a2a2a;
+        }
+
+            .social-icons a:hover {
+                background: #ef5350;
+                color: #fff;
+                border-color: #ef5350;
+            }
+
+    .footer-bottom {
+        margin-top: 48px;
+        border-top: 1px solid #1e1e1e;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 0.82rem;
+        color: #555;
+        background: #0a0a0a;
+    }
+
+    @@media (max-width: 768px) {
+        .hero-section {
+            min-height: 70vh;
+            padding: 100px 0 80px;
+        }
+
+        .hero-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn-hero-primary, .btn-hero-outline {
+            width: 100%;
+            max-width: 280px;
+        }
     }
 </style>

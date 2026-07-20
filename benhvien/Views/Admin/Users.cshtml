@@ -1,5 +1,8 @@
-﻿@model List<benhvien.Models.User>
-
+﻿@{
+   
+    Layout = "_LayoutAdmin";
+}
+@model List<benhvien.Models.User>
 <table class="table table-bordered table-hover">
     <thead class="table-dark">
         <tr>
@@ -27,7 +30,8 @@
                                                 : "Chưa gán bệnh viện")
                 </small>
                                 }
-                    else   @if (item.Role?.RoleName == "Staff")
+                    else
+       @if (item.Role?.RoleName == "Staff")
                     {
                         <small class="text-warning fw-bold">
                             <i class="bi bi-person-badge"></i>
@@ -56,3 +60,7 @@
         }
     </tbody>
 </table>
+
+<a asp-controller="Admin" asp-action="Index" class="btn btn-secondary">
+    Quay lại
+</a>

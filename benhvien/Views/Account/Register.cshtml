@@ -1,69 +1,282 @@
 ﻿@model benhvien.Models.User
 
-<div class="row justify-content-center">
-    <div class="col-md-6">
-        <div class="card shadow">
-            <div class="card-header bg-danger text-white">
-                <h3 class="text-center">Đăng ký tài khoản</h3>
-            </div>
+<style>
+    .register-wrapper {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+    }
 
-            <div class="card-body">
-                <h4 class="text-danger">@ViewBag.Error</h4>
-                <form method="post">
+    .register-card {
+        border: none;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    }
 
-                    <div class="mb-3">
-                        <label>Họ tên</label>
-                        <input asp-for="FullName" class="form-control" />
+    .register-header {
+        background: linear-gradient(135deg, #e63946 0%, #d62839 100%);
+        padding: 32px 24px;
+        text-align: center;
+    }
+
+        .register-header .icon-circle {
+            width: 64px;
+            height: 64px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 12px;
+            font-size: 28px;
+        }
+
+        .register-header h3 {
+            color: #fff;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: 0.3px;
+        }
+
+        .register-header p {
+            color: rgba(255, 255, 255, 0.85);
+            margin: 6px 0 0;
+            font-size: 0.9rem;
+        }
+
+    .register-body {
+        padding: 32px 30px;
+        background: #fff;
+    }
+
+    .form-group-icon {
+        margin-bottom: 18px;
+    }
+
+        .form-group-icon label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #495057;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+    /* Wrapper chỉ chứa icon + input, không chứa label -> icon canh giữa đúng theo input */
+    .input-icon-wrap {
+        position: relative;
+    }
+
+        .input-icon-wrap .field-icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #adb5bd;
+            z-index: 5;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-icon-wrap .form-control,
+        .input-icon-wrap .form-select {
+            padding-left: 40px;
+            border-radius: 10px;
+            border: 1.5px solid #e9ecef;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: all 0.2s ease;
+        }
+
+            .input-icon-wrap .form-control:focus,
+            .input-icon-wrap .form-select:focus {
+                border-color: #e63946;
+                box-shadow: 0 0 0 0.2rem rgba(230, 57, 70, 0.15);
+            }
+
+    .btn-register {
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        background: linear-gradient(135deg, #e63946 0%, #d62839 100%);
+        border: none;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+        .btn-register:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(214, 40, 57, 0.3);
+        }
+
+    .error-box {
+        background: #fdecea;
+        color: #c0392b;
+        border-radius: 8px;
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        margin-bottom: 16px;
+        border-left: 4px solid #e63946;
+    }
+
+    .login-link {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+        .login-link a {
+            color: #e63946;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+            .login-link a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<div class="container register-wrapper">
+    <div class="row justify-content-center w-100">
+        <div class="col-md-7 col-lg-6">
+            <div class="card register-card">
+
+                <div class="register-header">
+                    <div class="icon-circle">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                    </div>
+                    <h3>Đăng ký tài khoản</h3>
+                    <p>Tham gia hệ thống Bệnh viện để đặt lịch &amp; theo dõi sức khoẻ</p>
+                </div>
+
+                <div class="register-body">
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Error))
+                    {
+                        <div class="error-box">
+                            <i class="bi bi-exclamation-triangle-fill me-1"></i> @ViewBag.Error
+                        </div>
+                    }
+
+                    <form method="post">
+
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-group-icon">
+                                    <label>Họ tên</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-person-fill field-icon"></i>
+                                        <input asp-for="FullName" class="form-control" placeholder="Nguyễn Văn A" />
+                                    </div>
+                                    <span asp-validation-for="FullName" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group-icon">
+                                    <label>Email</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-envelope-fill field-icon"></i>
+                                        <input asp-for="Email" class="form-control" placeholder="ban@email.com" />
+                                    </div>
+                                    <span asp-validation-for="Email" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group-icon">
+                                    <label>Số điện thoại</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-telephone-fill field-icon"></i>
+                                        <input asp-for="Phone" class="form-control" placeholder="09xxxxxxxx" />
+                                    </div>
+                                    <span asp-validation-for="Phone" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-icon">
+                                    <label>Mật khẩu</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-lock-fill field-icon"></i>
+                                        <input asp-for="Password" type="password" class="form-control" placeholder="••••••••" />
+                                    </div>
+                                    <span asp-validation-for="Password" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group-icon">
+                                    <label>Nhóm máu</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-droplet-fill field-icon"></i>
+                                        <select asp-for="BloodTypeId" name="BloodTypeId" class="form-select" required>
+                                            <option value="">-- Chọn nhóm máu --</option>
+                                            <option value="7">O+</option>
+                                            <option value="8">O-</option>
+                                            <option value="1">A+</option>
+                                            <option value="2">A-</option>
+                                            <option value="3">B+</option>
+                                            <option value="4">B-</option>
+                                            <option value="5">AB+</option>
+                                            <option value="6">AB-</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group-icon">
+                                    <label>Ngày sinh</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-calendar-event-fill field-icon"></i>
+                                        <input asp-for="DateOfBirth" type="date" class="form-control" />
+                                    </div>
+                                    <span asp-validation-for="DateOfBirth" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-icon">
+                                    <label>Địa chỉ</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-geo-alt-fill field-icon"></i>
+                                        <input asp-for="Address" class="form-control" placeholder="Số nhà, đường, quận/huyện..." />
+                                    </div>
+                                    <span asp-validation-for="Address" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            @* <div class="col-12">
+                                <div class="form-group-icon">
+                                    <label>Loại tài khoản</label>
+                                    <div class="input-icon-wrap">
+                                        <i class="bi bi-person-badge-fill field-icon"></i>
+                                        <select asp-for="RoleId" class="form-select">
+                                            <option value="4">Cá nhân</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div> *@
+                        </div>
+
+                        <button type="submit" class="btn btn-danger btn-register w-100 mt-3 text-white">
+                            <i class="bi bi-check-circle-fill me-1"></i> Đăng ký
+                        </button>
+
+                    </form>
+
+                    <div class="login-link">
+                        Đã có tài khoản? <a href="/Account/Login">Đăng nhập ngay</a>
                     </div>
 
-                    <div class="mb-3">
-                        <label>Email</label>
-                        <input asp-for="Email" class="form-control" />
-                    </div>
-
-                    <div class="mb-3">
-                        <label>Số điện thoại</label>
-                        <input asp-for="Phone" class="form-control" />
-                    </div>
-
-                    <div class="mb-3">
-                        <label>Password</label>
-                        <input asp-for="Password" type="password" class="form-control" />
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="fw-bold">Nhóm máu</label>
-                        <select asp-for="BloodTypeId" name="BloodTypeId" class="form-control" required>
-                            <option value="">-- Chọn nhóm máu --</option>
-                            <option value="7">O+</option>
-                            <option value="8">O-</option>
-                            <option value="1">A+</option>
-                            <option value="2">A-</option>
-                            <option value="3">B+</option>
-                            <option value="4">B-</option>
-                            <option value="5">AB+</option>
-                            <option value="6">AB-</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label>Ngày sinh</label>
-                        <input asp-for="DateOfBirth" type="date" class="form-control" />
-                    </div>
-                    <div class="mb-3">
-                        <label>Địa chỉ</label>
-                        <input asp-for="Address" class="form-control" />
-                    </div>
-
-                    <div class="mb-3">
-                        <label>Loại tài khoản</label>
-                        <select asp-for="RoleId" class="form-control">
-                            <option value="4">Cá nhân</option>
-                        </select>
-                    </div>
-
-                    <button type="submit" class="btn btn-danger w-100">Đăng ký</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">

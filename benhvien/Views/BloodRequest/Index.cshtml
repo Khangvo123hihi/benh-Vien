@@ -1,72 +1,194 @@
 ﻿@model List<benhvien.Models.BloodRequest>
 
-<h2 class="mb-4">
-    Danh sách cần máu
-</h2>
-
-<div class="row">
-
-    @foreach (var item in Model)
-    {
-        <div class="col-md-4 mb-4">
-
-            <div class="card shadow">
-
-                <div class="card-body">
-
-                    <h4 class="text-danger">
-
-                        @item.BloodType
-
-                    </h4>
-
-                    <p>
-
-                        Cần:
-                        @item.QuantityNeeded người
-
-                    </p>
-
-                    <p>
-
-                        @item.Description
-
-                    </p>
-
-                    @if (item.IsUrgent)
-                    {
-                        <span class="badge bg-danger">
-
-                            KHẨN CẤP
-
-                        </span>
-                    }
-
-                    <br />
-                    <br />
-
-                    <a asp-controller="Health"
-                       asp-action="Create"
-                       asp-route-bloodRequestId="@item.Id"
-                       class="btn btn-danger">
-
-                        Đăng ký hiến máu
-
-                    </a>
-                  
-
-                </div>
-
-            </div>
-
-        </div>
-
+<style>
+    .page-header {
+        background: linear-gradient(135deg, #b71c2b 0%, #e63950 60%, #ff6b7a 100%);
+        border-radius: 16px;
+        padding: 1.8rem 2rem;
+        color: #fff;
+        margin-bottom: 2rem;
+        box-shadow: 0 8px 24px rgba(183, 28, 43, 0.25);
     }
-    <div>
+
+        .page-header h2 {
+            font-weight: 700;
+            margin: 0;
+        }
+
+    .request-card {
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+        height: 100%;
+    }
+
+        .request-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+        }
+
+        .request-card .card-top {
+            background: #fff5f5;
+            padding: 1.2rem 1.4rem 0.8rem;
+            border-bottom: 1px solid #ffe3e6;
+            position: relative;
+        }
+
+    .blood-type-badge {
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: #c9184a;
+        margin: 0;
+    }
+
+    .urgent-tag {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: #d90429;
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 0.3rem 0.7rem;
+        border-radius: 999px;
+        letter-spacing: 0.5px;
+        animation: pulse-urgent 1.4s infinite;
+    }
+
+    @@keyframes pulse-urgent {
+        0% {
+            box-shadow: 0 0 0 0 rgba(217, 4, 41, 0.5);
+        }
+
+        70% {
+            box-shadow: 0 0 0 8px rgba(217, 4, 41, 0);
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 rgba(217, 4, 41, 0);
+        }
+    }
+
+    .request-card .card-body {
+        padding: 1.2rem 1.4rem 1.4rem;
+    }
+
+    .qty-line {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
+        color: #495057;
+        margin-bottom: 0.6rem;
+    }
+
+        .qty-line .qty-number {
+            color: #d90429;
+            font-weight: 800;
+        }
+
+    .request-desc {
+        color: #6c757d;
+        font-size: 0.92rem;
+        min-height: 40px;
+    }
+
+    .btn-register {
+        background: linear-gradient(135deg, #d90429, #ef233c);
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.55rem 1rem;
+        width: 100%;
+        color: #fff;
+    }
+
+        .btn-register:hover {
+            color: #fff;
+            opacity: 0.92;
+        }
+
+    .page-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .btn-history {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.5rem 1.2rem;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        color: #fff;
+        white-space: nowrap;
+    }
+
+        .btn-history:hover {
+            background: rgba(255, 255, 255, 0.28);
+            color: #fff;
+        }
+
+    .bottom-actions {
+        margin-top: 1.5rem;
+    }
+
+    .btn-back {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.55rem 1.3rem;
+    }
+</style>
+
+<div class="container mt-4">
+
+    <div class="page-header">
+        <h2><i class="bi bi-droplet-half me-2"></i>Danh sách cần máu</h2>
         <a asp-controller="Donation"
            asp-action="History"
-           class="btn btn-outline-primary">
-            Xem lịch sử đăng ký
+           class="btn btn-history">
+            <i class="bi bi-clock-history me-1"></i>Xem lịch sử đăng ký
+        </a>
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="request-card">
+                    <div class="card-top">
+                        @if (item.IsUrgent)
+                        {
+                            <span class="urgent-tag">KHẨN CẤP</span>
+                        }
+                        <p class="blood-type-badge">@item.BloodType</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="qty-line">
+                            <i class="bi bi-people-fill"></i>
+                            Cần <span class="qty-number">@item.QuantityNeeded</span> ml
+                        </p>
+                        <p class="request-desc">@item.Description</p>
+                        <a asp-controller="Health"
+                           asp-action="Create"
+                           asp-route-bloodRequestId="@item.Id"
+                           class="btn btn-register">
+                            <i class="bi bi-heart-fill me-1"></i>Đăng ký hiến máu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="bottom-actions">
+        <a href="javascript:history.back()" class="btn btn-outline-secondary btn-back">
+            <i class="bi bi-arrow-left me-1"></i>Quay lại
         </a>
     </div>
 

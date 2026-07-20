@@ -1,28 +1,127 @@
 ﻿@model benhvien.Models.User // Thay bằng Model User thực tế của bạn
 
+<style>
+    .profile-card {
+        border: none;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 28px rgba(0, 0, 0, 0.09);
+    }
+
+    .profile-header {
+        background: linear-gradient(135deg, #b71c2b 0%, #e63950 60%, #ff6b7a 100%);
+        padding: 1.8rem 1.5rem;
+        text-align: center;
+        color: #fff;
+    }
+
+    .profile-avatar {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0.8rem;
+        font-size: 1.8rem;
+    }
+
+    .profile-header h3 {
+        font-weight: 700;
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+    .info-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.85rem 0;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+    .info-label {
+        color: #6c757d;
+        font-weight: 600;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+        .info-label i {
+            color: #d90429;
+        }
+
+    .info-value {
+        font-weight: 600;
+        color: #212529;
+        text-align: right;
+    }
+
+    .blood-value {
+        color: #c9184a;
+        font-weight: 800;
+    }
+
+    .btn-back {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.55rem 1.3rem;
+    }
+</style>
+
 <div class="container mt-5">
-    <div class="card mx-auto" style="max-width: 500px;">
-        <div class="card-header bg-danger text-white text-center">
+    <div class="card profile-card mx-auto" style="max-width: 500px;">
+
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <i class="bi bi-person-fill"></i>
+            </div>
             <h3>Thông Tin Cá Nhân</h3>
         </div>
-        <div class="card-body">
-            <p><strong>Họ và tên:</strong> @Model.FullName</p>
-            <p><strong>Email:</strong> @Model.Email</p>
-            <p><strong>Số điện thoại:</strong> @Model.Phone</p>
-            <p>
-                <strong>Nhóm máu:</strong>
-                @(Model.BloodType != null ? (Model.BloodType.ABO + Model.BloodType.Rh) : "Chưa cập nhật")
-            </p>
-            <p><strong>Địa chỉ:</strong> @Model.Address</p>
-            <p><strong>Tuổi:</strong> @Model.Age</p>    
+
+        <div class="card-body px-4 py-3">
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-person"></i>Họ và tên</span>
+                <span class="info-value">@Model.FullName</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-envelope"></i>Email</span>
+                <span class="info-value">@Model.Email</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-telephone"></i>Số điện thoại</span>
+                <span class="info-value">@Model.Phone</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-droplet"></i>Nhóm máu</span>
+                <span class="info-value blood-value">
+                    @(Model.BloodType != null ? (Model.BloodType.ABO + Model.BloodType.Rh) : "Chưa cập nhật")
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-geo-alt"></i>Địa chỉ</span>
+                <span class="info-value">@Model.Address</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label"><i class="bi bi-calendar3"></i>Tuổi</span>
+                <span class="info-value">@Model.Age</span>
+            </div>
             @* Bạn có thể bổ sung thêm các trường khác tại đây *@
         </div>
     </div>
-</div>
-<div>
-    <a asp-controller="User"
-       asp-action="Index"
-       class="btn btn-secondary">
-        Quay lại
-    </a>
+
+    <div class="text-center mt-3">
+        <a asp-controller="User"
+           asp-action="Index"
+           class="btn btn-outline-secondary btn-back">
+            <i class="bi bi-arrow-left me-1"></i>Quay lại
+        </a>
+    </div>
 </div>
