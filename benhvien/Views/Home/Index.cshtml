@@ -13,15 +13,36 @@
             <h1>Kết Nối Những Giọt Máu<br><span class="hero-accent">Trao Hy Vọng Sống</span></h1>
             <p class="lead">Nền tảng hỗ trợ đăng ký hiến máu và tìm kiếm nguồn máu nhanh chóng, kết nối hàng nghìn người hiến với bệnh viện trên cả nước.</p>
             <div class="hero-buttons mt-5">
-                <a asp-controller="Account" asp-action="Register" class="btn btn-hero-primary">
-                    Đăng ký hiến máu
-                </a>
-                <a asp-controller="Account" asp-action="Login" class="btn btn-hero-outline">
-                    Đăng nhập
-                </a>
-                <a asp-controller="Home" asp-action="DonationGuide" class="btn btn-hero-outline">
+
+                @if (Context.Session.GetString("Role") == "User")
+                {
+                    <a asp-controller="BloodRequest"
+                       asp-action="Index"
+                       class="btn btn-hero-primary">
+                        Đăng ký hiến máu
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Account"
+                       asp-action="Register"
+                       class="btn btn-hero-primary">
+                        Đăng ký hiến máu
+                    </a>
+
+                    <a asp-controller="Account"
+                       asp-action="Login"
+                       class="btn btn-hero-outline">
+                        Đăng nhập
+                    </a>
+                }
+
+                <a asp-controller="Home"
+                   asp-action="DonationGuide"
+                   class="btn btn-hero-outline">
                     Hướng dẫn hiến máu
                 </a>
+
             </div>
         </div>
         <div class="hero-wave">
